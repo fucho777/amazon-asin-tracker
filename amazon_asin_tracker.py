@@ -1,4 +1,20 @@
-import os
+def load_asin_list_from_file(filename):
+    """ファイルからASINリストを読み込む（1行1ASIN形式）"""
+    asins = []
+    try:
+        with open(filename, 'r', encoding='utf-8') as f:
+            for line in f:
+                # コメント行と空行をスキップ
+                line = line.strip()
+                if line and not line.startswith('#'):
+                    asins.append(line)
+        return asins
+    except FileNotFoundError:
+        logger.error(f"ファイルが見つかりません: {filename}")
+        return []
+    except Exception as e:
+        logger.error(f"ファイル読み込みエラー: {e}")
+        return []import os
 import json
 import logging
 import requests
@@ -508,21 +524,48 @@ def main():
     parser = argparse.ArgumentParser(description='Amazon ASIN Tracker - 指定したASIN商品の割引情報と入荷状況をチェック')
     parser.add_argument('--dry-run', action='store_true', help='投稿せずに実行（テスト用）')
     parser.add_argument('--min-discount', type=float, help=f'最小割引率（デフォルト: {MIN_DISCOUNT_PERCENT}%）')
-    parser.add_argument('--add', help='ASINを指定して追跡リストに追加')
+    parser.add_argument('--add', help='ASINを指定して追跡リストに追加（カンマ区切りで複数指定可能）')
+    parser.add_argument('--add-file', help='ASINリストが記載されたファイルから一括追加（1行1ASIN形式）')
     parser.add_argument('--stock-only', action='store_true', help='入荷検知のみ行う（割引情報はチェックしない）')
     parser.add_argument('--discount-only', action='store_true', help='割引検知のみ行う（入荷情報はチェックしない）')
     args = parser.parse_args()
     
     # ASINを追加する処理
-    if args.add:
+    if args.add or args.add_file:
         config = load_asin_list()
-        if args.add not in config["tracking_asins"]:
-            config["tracking_asins"].append(args.add)
+        added_count = 0
+        
+        # コマンドラインからの追加処理
+        if args.add:
+            # カンマ区切りの場合は分割
+            asin_list = [asin.strip() for asin in args.add.split(',')]
+            
+            for asin in asin_list:
+                if not asin:  # 空の文字列はスキップ
+                    continue
+                    
+                if asin not in config["tracking_asins"]:
+                    config["tracking_asins"].append(asin)
+                    logger.info(f"ASINを追加しました: {asin}")
+                    added_count += 1
+                else:
+                    logger.info(f"ASINは既に追跡リストに含まれています: {asin}")
+        
+        # ファイルからの追加処理
+        if args.add_file:
+            file_asins = load_asin_list_from_file(args.add_file)
+            for asin in file_asins:
+                if asin not in config["tracking_asins"]:
+                    config["tracking_asins"].append(asin)
+                    logger.info(f"ASINを追加しました: {asin}")
+                    added_count += 1
+                else:
+                    logger.info(f"ASINは既に追跡リストに含まれています: {asin}")
+        
+        if added_count > 0:
             with open(ASIN_LIST_FILE, 'w', encoding='utf-8') as f:
                 json.dump(config, f, ensure_ascii=False, indent=2)
-            logger.info(f"ASINを追加しました: {args.add}")
-        else:
-            logger.info(f"ASINは既に追跡リストに含まれています: {args.add}")
+            logger.info(f"合計 {added_count}件のASINを追加しました")
         return
     
     # 設定を読み込む
