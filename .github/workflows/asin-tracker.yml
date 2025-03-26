@@ -2,7 +2,7 @@ name: Amazon ASIN Tracker
 
 on:
   schedule:
-    # 毎日 UTC 0:00 と 12:00 に実行（日本時間 9:00 と 21:00）
+    # 2時間に一回実行
     - cron: '0 0/2 * * *'
   workflow_dispatch:
     inputs:
