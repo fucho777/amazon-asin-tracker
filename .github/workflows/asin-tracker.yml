@@ -2,7 +2,7 @@ name: Amazon ASIN Tracker
 
 on:
   schedule:
-    # 2時間に一回実行
+    # 2時間に1回実行
     - cron: '0 0/2 * * *'
   workflow_dispatch:
     inputs:
@@ -16,6 +16,11 @@ on:
           - discount-only
           - stock-only
           - dry-run
+      amazon_only:
+        description: 'Amazonが販売している商品のみを対象にする'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   track-asins:
@@ -53,6 +58,7 @@ jobs:
       run: |
         # 実行モードに応じてコマンドラインオプションを設定
         MODE="${{ github.event.inputs.mode || 'all' }}"
+        AMAZON_ONLY="${{ github.event.inputs.amazon_only || 'false' }}"
         RUN_OPTIONS=""
         
         case $MODE in
@@ -69,6 +75,11 @@ jobs:
             RUN_OPTIONS=""
             ;;
         esac
+        
+        # Amazonのみオプション
+        if [ "$AMAZON_ONLY" = "true" ]; then
+          RUN_OPTIONS="$RUN_OPTIONS --amazon-only"
+        fi
         
         # 実行日時を含む一意のログファイル名を生成
         TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
