@@ -1,20 +1,4 @@
-def load_asin_list_from_file(filename):
-    """ファイルからASINリストを読み込む（1行1ASIN形式）"""
-    asins = []
-    try:
-        with open(filename, 'r', encoding='utf-8') as f:
-            for line in f:
-                # コメント行と空行をスキップ
-                line = line.strip()
-                if line and not line.startswith('#'):
-                    asins.append(line)
-        return asins
-    except FileNotFoundError:
-        logger.error(f"ファイルが見つかりません: {filename}")
-        return []
-    except Exception as e:
-        logger.error(f"ファイル読み込みエラー: {e}")
-        return []import os
+import os
 import json
 import logging
 import requests
@@ -58,6 +42,24 @@ RESULTS_FILE = "asin_results.json"
 MIN_DISCOUNT_PERCENT = 15  # デフォルトの最小割引率
 API_WAIT_TIME = 3  # APIリクエスト間の待機時間（秒）
 MAX_BATCH_SIZE = 10  # PA-APIの1回のリクエストで取得できる最大ASIN数
+
+def load_asin_list_from_file(filename):
+    """ファイルからASINリストを読み込む（1行1ASIN形式）"""
+    asins = []
+    try:
+        with open(filename, 'r', encoding='utf-8') as f:
+            for line in f:
+                # コメント行と空行をスキップ
+                line = line.strip()
+                if line and not line.startswith('#'):
+                    asins.append(line)
+        return asins
+    except FileNotFoundError:
+        logger.error(f"ファイルが見つかりません: {filename}")
+        return []
+    except Exception as e:
+        logger.error(f"ファイル読み込みエラー: {e}")
+        return []
 
 def sign_request(host, path, payload, target="GetItems"):
     """PA-APIリクエストに署名を生成"""
@@ -144,7 +146,7 @@ def get_product_info_batch(asin_list):
     path = "/paapi5/getitems"
     url = f"https://{host}{path}"
     
-            # リクエストペイロード - GetItems APIで有効なリソースのみを指定
+    # リクエストペイロード - GetItems APIで有効なリソースのみを指定
     payload = {
         "ItemIds": asin_list,
         "Resources": [
@@ -685,34 +687,10 @@ def main():
             
             for i, product in enumerate(newly_in_stock[:post_limit_stock]):
                 logger.info(f"入荷商品 {i+1}/{post_limit_stock} を投稿: {product['title'][:30]}...")
-             
-                 if threads_credentials:
-                     threads_result = post_to_threads(product, notification_type="instock")
-                     logger.info(f"Threads投稿結果(入荷): {'成功' if threads_result else '失敗'}")
-                 else:
-                     logger.warning("Threads認証情報が設定されていないため、投稿をスキップします")
                 
-                
-                # 連続投稿を避けるために待機
-                time.sleep(5)
-        
-        # 割引商品の投稿
-        if new_discounted_items:
-            post_limit_discount = min(5, len(new_discounted_items))
-            logger.info(f"割引商品 {post_limit_discount}件を投稿します")
-            
-            for i, product in enumerate(new_discounted_items[:post_limit_discount]):
-                logger.info(f"割引商品 {i+1}/{post_limit_discount} を投稿: {product['title'][:30]}...")
-                
-                 if threads_credentials:
-                     threads_result = post_to_threads(product, notification_type="discount")
-                     logger.info(f"Threads投稿結果(割引): {'成功' if threads_result else '失敗'}")
-                 else:
-                     logger.warning("Threads認証情報が設定されていないため、投稿をスキップします")
-                
-                
-                # 連続投稿を避けるために待機
-                time.sleep(5)荷): {'成功' if threads_result else '失敗'}")
+                if threads_credentials:
+                    threads_result = post_to_threads(product, notification_type="instock")
+                    logger.info(f"Threads投稿結果(入荷): {'成功' if threads_result else '失敗'}")
                 else:
                     logger.warning("Threads認証情報が設定されていないため、投稿をスキップします")
                 
