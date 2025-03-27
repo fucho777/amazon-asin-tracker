@@ -275,6 +275,7 @@ def load_asin_list():
     # デフォルトリスト
     default_list = {
         "min_discount_percent": MIN_DISCOUNT_PERCENT,
+        "amazon_only": False,  # デフォルトでは全ての販売元を対象
         "tracking_asins": []
     }
     
@@ -528,6 +529,7 @@ def main():
     parser.add_argument('--add-file', help='ASINリストが記載されたファイルから一括追加（1行1ASIN形式）')
     parser.add_argument('--stock-only', action='store_true', help='入荷検知のみ行う（割引情報はチェックしない）')
     parser.add_argument('--discount-only', action='store_true', help='割引検知のみ行う（入荷情報はチェックしない）')
+    parser.add_argument('--amazon-only', action='store_true', help='Amazonが販売している商品のみを対象にする')
     args = parser.parse_args()
     
     # ASINを追加する処理
@@ -610,6 +612,12 @@ def main():
     
     if not args.discount_only:  # 割引検知のみでなければ入荷チェック
         for asin, product in product_info.items():
+            # Amazonのみフィルタリング
+            amazon_only = args.amazon_only or config.get("amazon_only", False)
+            if amazon_only and not product.get("is_amazon", False):
+                logger.info(f"Amazon以外の販売元のため対象外: {product['title'][:30]}... ({asin}) - 販売元: {product.get('seller', '不明')}")
+                continue
+                
             # 前回の在庫状況と比較
             if asin in stock_history:
                 previous_stock = stock_history[asin]
@@ -628,6 +636,11 @@ def main():
     if not args.stock_only:  # 在庫チェックのみでなければ割引チェック
         # 割引情報を計算
         all_discounted_items = calculate_discount(product_info)
+        
+        # Amazonのみフィルタリング
+        if args.amazon_only or config.get("amazon_only", False):
+            all_discounted_items = [item for item in all_discounted_items if item.get("is_amazon", False)]
+            logger.info(f"Amazonが販売する商品のみに絞り込み: {len(all_discounted_items)}件")
         
         # 最小割引率でフィルタリング
         filtered_items = [item for item in all_discounted_items if item.get("discount_percent", 0) >= min_discount]
@@ -673,14 +686,13 @@ def main():
             for i, product in enumerate(newly_in_stock[:post_limit_stock]):
                 logger.info(f"入荷商品 {i+1}/{post_limit_stock} を投稿: {product['title'][:30]}...")
                 
-                # Threads投稿機能をコメントアウト
-                # if threads_credentials:
-                #     threads_result = post_to_threads(product, notification_type="instock")
-                #     logger.info(f"Threads投稿結果(入荷): {'成功' if threads_result else '失敗'}")
-                # else:
-                #     logger.warning("Threads認証情報が設定されていないため、投稿をスキップします")
+                 Threads投稿機能をコメントアウト
+                 if threads_credentials:
+                     threads_result = post_to_threads(product, notification_type="instock")
+                     logger.info(f"Threads投稿結果(入荷): {'成功' if threads_result else '失敗'}")
+                 else:
+                     logger.warning("Threads認証情報が設定されていないため、投稿をスキップします")
                 
-                logger.info("Threads投稿機能はコメントアウトされています")
                 
                 # 連続投稿を避けるために待機
                 time.sleep(5)
