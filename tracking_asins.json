@@ -1,6 +1,6 @@
 {
   "min_discount_percent": 15,
-  "amazon_only": false,
+  "amazon_only": true,
   "tracking_asins": [
     "B089Y8J5GR",
     "B0CN2YKKCS",
