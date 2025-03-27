@@ -1,10 +1,30 @@
 {
   "min_discount_percent": 15,
+  "amazon_only": false,
   "tracking_asins": [
-    "B0CC944LHR",
+    "B089Y8J5GR",
+    "B0CN2YKKCS",
+    "B0BG173Z8W",
+    "B09R1LXXRH",
     "B0C65KM3ZT",
-    "B08JKFH23G",
+    "B0CGWDMP5D",
     "B002VPUOOE",
-    "B004Y9IXZW"
+    "B08JKFH23G",
+    "B0D1FRK57X",
+    "B0BR8674YZ",
+    "B09Y8YY5SZ",
+    "B0D9NVMB76",
+    "B0CC944LHR",
+    "B0CN2QDWSC",
+    "B004Y9IXZW",
+    "B0DHZKLV7V",
+    "B09QSD74Q5",
+    "B08XR3JJ87",
+    "B0D89Y474F",
+    "B0CTGVCGPS",
+    "B0BBFKZWZL",
+    "B0DNW2JZWQ",
+    "B07XZC1QR3",
+    "B0DHP4R5PV"
   ]
 }
