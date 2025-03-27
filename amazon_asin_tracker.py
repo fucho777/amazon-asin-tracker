@@ -685,8 +685,7 @@ def main():
             
             for i, product in enumerate(newly_in_stock[:post_limit_stock]):
                 logger.info(f"入荷商品 {i+1}/{post_limit_stock} を投稿: {product['title'][:30]}...")
-                
-                 Threads投稿機能をコメントアウト
+             
                  if threads_credentials:
                      threads_result = post_to_threads(product, notification_type="instock")
                      logger.info(f"Threads投稿結果(入荷): {'成功' if threads_result else '失敗'}")
@@ -705,14 +704,12 @@ def main():
             for i, product in enumerate(new_discounted_items[:post_limit_discount]):
                 logger.info(f"割引商品 {i+1}/{post_limit_discount} を投稿: {product['title'][:30]}...")
                 
-                # Threads投稿機能をコメントアウト
-                # if threads_credentials:
-                #     threads_result = post_to_threads(product, notification_type="discount")
-                #     logger.info(f"Threads投稿結果(割引): {'成功' if threads_result else '失敗'}")
-                # else:
-                #     logger.warning("Threads認証情報が設定されていないため、投稿をスキップします")
+                 if threads_credentials:
+                     threads_result = post_to_threads(product, notification_type="discount")
+                     logger.info(f"Threads投稿結果(割引): {'成功' if threads_result else '失敗'}")
+                 else:
+                     logger.warning("Threads認証情報が設定されていないため、投稿をスキップします")
                 
-                logger.info("Threads投稿機能はコメントアウトされています")
                 
                 # 連続投稿を避けるために待機
                 time.sleep(5)荷): {'成功' if threads_result else '失敗'}")
