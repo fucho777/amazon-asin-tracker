@@ -10,10 +10,10 @@
     "is_in_stock": true,
     "seller": "松屋フーズ",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:27",
+    "timestamp": "2025-03-27 04:40:40",
     "discount_amount": 7290.0,
     "discount_percent": 53.289473684210535,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0CN2YKKCS",
@@ -26,8 +26,8 @@
     "is_in_stock": false,
     "seller": "Amazon.com Sales, Inc.",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:27",
-    "posted": false
+    "timestamp": "2025-03-27 04:40:40",
+    "posted": true
   },
   {
     "asin": "B0BG173Z8W",
@@ -40,10 +40,10 @@
     "is_in_stock": true,
     "seller": "Dearan 専門店",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:27",
+    "timestamp": "2025-03-27 04:40:40",
     "discount_amount": 600.0,
     "discount_percent": 20.00666888962988,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B09R1LXXRH",
@@ -56,10 +56,10 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-03-27 04:01:27",
+    "timestamp": "2025-03-27 04:40:40",
     "discount_amount": 358.0,
     "discount_percent": 19.977678571428573,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0C65KM3ZT",
@@ -72,26 +72,26 @@
     "is_in_stock": true,
     "seller": "Deestop JP",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:27",
+    "timestamp": "2025-03-27 04:40:40",
     "discount_amount": 1499.0,
     "discount_percent": 49.983327775925304,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0CGWDMP5D",
     "title": "シャオミ(Xiaomi) SIMフリースマートフォン Redmi 12 5G 4GB+128GB 6.8インチ高精細ディスプレイ ガラス背面 docomo/au/SoftBank/Rakuten Mobile 回線対応 スカイブルー",
-    "current_price": 16364.0,
+    "current_price": 16200.0,
     "original_price": 29800.0,
     "image_url": "https://m.media-amazon.com/images/I/31I-LAF4YNL._SL500_.jpg",
     "detail_page_url": "https://www.amazon.co.jp/dp/B0CGWDMP5D?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "availability": "在庫あり。",
     "is_in_stock": true,
-    "seller": "Go Japan 株式会社",
+    "seller": "サンクスワン / エッグプラント（インボイス登録済）",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:27",
-    "discount_amount": 13436.0,
-    "discount_percent": 45.08724832214765,
-    "posted": false
+    "timestamp": "2025-03-27 04:40:40",
+    "discount_amount": 13600.0,
+    "discount_percent": 45.63758389261745,
+    "posted": true
   },
   {
     "asin": "B002VPUOOE",
@@ -104,10 +104,10 @@
     "is_in_stock": true,
     "seller": "リカオー",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:27",
+    "timestamp": "2025-03-27 04:40:40",
     "discount_amount": 871.0,
     "discount_percent": 43.118811881188115,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B08JKFH23G",
@@ -120,10 +120,10 @@
     "is_in_stock": true,
     "seller": "GenkiOnline",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:27",
+    "timestamp": "2025-03-27 04:40:40",
     "discount_amount": 1420.0,
     "discount_percent": 38.58695652173913,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0D1FRK57X",
@@ -136,10 +136,10 @@
     "is_in_stock": true,
     "seller": "Donamo 直営店",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:27",
+    "timestamp": "2025-03-27 04:40:40",
     "discount_amount": 3920.0,
     "discount_percent": 35.96330275229358,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0BR8674YZ",
@@ -152,10 +152,10 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-03-27 04:01:27",
+    "timestamp": "2025-03-27 04:40:40",
     "discount_amount": 2271.0,
     "discount_percent": 34.99229583975347,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B09Y8YY5SZ",
@@ -168,10 +168,10 @@
     "is_in_stock": true,
     "seller": "Yezai 商標登録番号 第2021-042469",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:31",
+    "timestamp": "2025-03-27 04:40:44",
     "discount_amount": 2000.0,
     "discount_percent": 33.44481605351171,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0D9NVMB76",
@@ -184,10 +184,10 @@
     "is_in_stock": true,
     "seller": "Stseetop Life-Jp",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:31",
+    "timestamp": "2025-03-27 04:40:44",
     "discount_amount": 700.0,
     "discount_percent": 33.34921391138637,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0CC944LHR",
@@ -200,10 +200,10 @@
     "is_in_stock": true,
     "seller": "CPWORLD専門店 rjz",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:31",
+    "timestamp": "2025-03-27 04:40:44",
     "discount_amount": 1202.0,
     "discount_percent": 31.147965794247213,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0CN2QDWSC",
@@ -216,8 +216,8 @@
     "is_in_stock": false,
     "seller": "Amazon.com Sales, Inc.",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:31",
-    "posted": false
+    "timestamp": "2025-03-27 04:40:44",
+    "posted": true
   },
   {
     "asin": "B004Y9IXZW",
@@ -230,10 +230,10 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-03-27 04:01:31",
+    "timestamp": "2025-03-27 04:40:44",
     "discount_amount": 1008.0,
     "discount_percent": 30.0,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0DHZKLV7V",
@@ -246,10 +246,10 @@
     "is_in_stock": true,
     "seller": "Blackview スマホ直営店",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:31",
+    "timestamp": "2025-03-27 04:40:44",
     "discount_amount": 5070.0,
     "discount_percent": 30.0,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B09QSD74Q5",
@@ -262,10 +262,10 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-03-27 04:01:31",
+    "timestamp": "2025-03-27 04:40:44",
     "discount_amount": 5090.0,
     "discount_percent": 29.853372434017594,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B08XR3JJ87",
@@ -278,10 +278,10 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-03-27 04:01:31",
+    "timestamp": "2025-03-27 04:40:44",
     "discount_amount": 489.0,
     "discount_percent": 29.422382671480147,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0D89Y474F",
@@ -294,10 +294,10 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-03-27 04:01:31",
+    "timestamp": "2025-03-27 04:40:44",
     "discount_amount": 266.0,
     "discount_percent": 18.181818181818183,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0CTGVCGPS",
@@ -310,10 +310,10 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-03-27 04:01:31",
+    "timestamp": "2025-03-27 04:40:44",
     "discount_amount": 223.0,
     "discount_percent": 27.909887359198997,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0BBFKZWZL",
@@ -326,10 +326,10 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-03-27 04:01:34",
+    "timestamp": "2025-03-27 04:40:47",
     "discount_amount": 977.0,
     "discount_percent": 25.376623376623375,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0DNW2JZWQ",
@@ -342,10 +342,10 @@
     "is_in_stock": true,
     "seller": "aemtech",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:34",
+    "timestamp": "2025-03-27 04:40:47",
     "discount_amount": 1250.0,
     "discount_percent": 25.00500100020004,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B07XZC1QR3",
@@ -358,10 +358,10 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-03-27 04:01:34",
+    "timestamp": "2025-03-27 04:40:47",
     "discount_amount": 356.0,
     "discount_percent": 24.92997198879552,
-    "posted": false
+    "posted": true
   },
   {
     "asin": "B0DHP4R5PV",
@@ -374,9 +374,9 @@
     "is_in_stock": true,
     "seller": "Chelie JP",
     "is_amazon": false,
-    "timestamp": "2025-03-27 04:01:34",
+    "timestamp": "2025-03-27 04:40:47",
     "discount_amount": 600.0,
     "discount_percent": 23.08580223162755,
-    "posted": false
+    "posted": true
   }
 ]
