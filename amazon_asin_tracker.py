@@ -559,7 +559,6 @@ def post_to_twitter(client, product, notification_type="discount"):
                 post += f"💲 価格: {current_price:,.0f}円\n"
             post += f"📋 在庫状況: {availability}\n"
             if seller:
-                post += f"🏪 販売: {seller}\n"
             post += f"\n🛒 商品ページ: {product['detail_page_url']}\n\n"
         
         else:
@@ -572,7 +571,7 @@ def post_to_twitter(client, product, notification_type="discount"):
             post += f"🛒 商品ページ: {product['detail_page_url']}\n\n"
         
         # 投稿が250文字を超える場合は調整
-        if len(post) > 270:
+        if len(post) > 250:
             title_max = 50  # タイトルを固定で50文字に制限
             short_title = product['title'][:title_max] + "..."
             post = post.replace(f"{product['title'][:80]}...", short_title)
