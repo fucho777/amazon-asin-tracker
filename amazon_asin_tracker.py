@@ -559,6 +559,7 @@ def post_to_twitter(client, product, notification_type="discount"):
                 post += f"💲 価格: {current_price:,.0f}円\n"
             post += f"📋 在庫状況: {availability}\n"
             if seller:
+                post += f"🏪 販売: {seller}\n"
             post += f"\n🛒 商品ページ: {product['detail_page_url']}\n\n"
         
         else:
@@ -693,22 +694,25 @@ def post_to_threads(product, notification_type="discount"):
             availability = product.get("availability", "在庫あり")
             seller = product.get("seller", "")
             
-            text = f"📦【入荷速報】Amazonで在庫復活！📦#PR\n\n"
+            text = f"📦【入荷速報】Amazonで在庫復活！📦 #PR\n\n"
             text += f"{product['title']}\n\n"
             if current_price:
                 text += f"💲 価格: {current_price:,.0f}円\n"
             text += f"📋 在庫状況: {availability}\n"
             if seller:
-            text += f": {product['detail_page_url']}\n\n"
+                text += f"🏪 販売: {seller}\n"
+            text += f"\n🛒 商品ページ: {product['detail_page_url']}\n\n"
+            text += f"#Amazon入荷 #在庫あり #お買い逃しなく #PR"
         
         else:
             # その他の変更（汎用フォーマット）
-            text = f"📢【商品情報更新】Amazon商品情報📢#PR\n\n"
+            text = f"📢【商品情報更新】Amazon商品情報📢 #PR\n\n"
             text += f"{product['title']}\n\n"
             if product.get("current_price"):
                 text += f"💲 価格: {product['current_price']:,.0f}円\n"
             text += f"📋 在庫状況: {product.get('availability', '不明')}\n\n"
-            text += f": {product['detail_page_url']}\n\n"
+            text += f"🛒 商品ページ: {product['detail_page_url']}\n\n"
+            text += f"#Amazon #商品情報 #PR"
         
         if DRY_RUN:
             logger.info(f"【シミュレーション】Threads投稿内容: {text[:100]}...")
