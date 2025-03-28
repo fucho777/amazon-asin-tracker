@@ -3,7 +3,7 @@ name: Amazon ASIN Tracker
 on:
   schedule:
     # 1分に1回実行
-    - cron: '*/10 * * * *'
+    - cron: '0 */2 * * *'
   workflow_dispatch:
     inputs:
       mode:
