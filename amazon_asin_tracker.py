@@ -571,7 +571,7 @@ def post_to_twitter(client, product, notification_type="discount"):
             post += f"📋 在庫状況: {product.get('availability', '不明')}\n\n"
             post += f"🛒 商品ページ: {product['detail_page_url']}\n\n"
         
-        # 投稿が270文字を超える場合は調整
+        # 投稿が250文字を超える場合は調整
         if len(post) > 270:
             title_max = 50  # タイトルを固定で50文字に制限
             short_title = product['title'][:title_max] + "..."
@@ -694,25 +694,22 @@ def post_to_threads(product, notification_type="discount"):
             availability = product.get("availability", "在庫あり")
             seller = product.get("seller", "")
             
-            text = f"📦【入荷速報】Amazonで在庫復活！📦\n\n"
+            text = f"📦【入荷速報】Amazonで在庫復活！📦#PR\n\n"
             text += f"{product['title']}\n\n"
             if current_price:
                 text += f"💲 価格: {current_price:,.0f}円\n"
             text += f"📋 在庫状況: {availability}\n"
             if seller:
-                text += f"🏪 販売: {seller}\n"
-            text += f"\n🛒 商品ページ: {product['detail_page_url']}\n\n"
-            text += f"#Amazon入荷 #在庫あり #お買い逃しなく #PR"
+            text += f": {product['detail_page_url']}\n\n"
         
         else:
             # その他の変更（汎用フォーマット）
-            text = f"📢【商品情報更新】Amazon商品情報📢\n\n"
+            text = f"📢【商品情報更新】Amazon商品情報📢#PR\n\n"
             text += f"{product['title']}\n\n"
             if product.get("current_price"):
                 text += f"💲 価格: {product['current_price']:,.0f}円\n"
             text += f"📋 在庫状況: {product.get('availability', '不明')}\n\n"
-            text += f"🛒 商品ページ: {product['detail_page_url']}\n\n"
-            text += f"#Amazon #商品情報 #PR"
+            text += f": {product['detail_page_url']}\n\n"
         
         if DRY_RUN:
             logger.info(f"【シミュレーション】Threads投稿内容: {text[:100]}...")
@@ -728,11 +725,6 @@ def post_to_threads(product, notification_type="discount"):
                     "media_type": "TEXT",
                     "text": text
                 }
-                
-                # 画像URLがある場合は追加
-                if "image_url" in product and product["image_url"]:
-                    upload_params["media_type"] = "IMAGE"
-                    upload_params["image_url"] = product["image_url"]
                 
                 # リクエスト送信
                 upload_response = requests.post(upload_url, data=upload_params, timeout=15)
@@ -908,15 +900,6 @@ def main():
         # 前回の在庫状況を取得
         stock_history = create_stock_history()
         
-        # Twitter APIクライアントの初期化
-        twitter_client = None
-        if not args.no_twitter and twitter_ready:
-            twitter_client = setup_twitter_api()
-            if twitter_client:
-                logger.info("Twitterクライアントを初期化しました")
-            else:
-                logger.warning("Twitterクライアントの初期化に失敗しました")
-        
         # PA-APIは一度に最大10ASINまで取得可能なので、バッチ処理
         product_info = {}
         for i in range(0, len(tracking_asins), MAX_BATCH_SIZE):
@@ -994,6 +977,16 @@ def main():
             logger.info("新しい入荷商品や割引商品は見つかりませんでした")
             return
         
+        # 投稿する商品がある場合のみTwitterクライアントを初期化
+        twitter_client = None
+        if not DRY_RUN and not args.no_twitter and twitter_ready:
+            logger.info("投稿する商品があるため、Twitterクライアントを初期化します")
+            twitter_client = setup_twitter_api()
+            if twitter_client:
+                logger.info("Twitterクライアントを初期化しました")
+            else:
+                logger.warning("Twitterクライアントの初期化に失敗しました")
+        
         # SNSに投稿（ドライランでなければ）
         if not DRY_RUN:
             # 入荷商品の投稿
@@ -1054,9 +1047,6 @@ def main():
                     print(f"   在庫状況: {product['availability']}")
                     print(f"   販売元: {product['seller']}")
                     print(f"   URL: {product['detail_page_url']}")
-                    
-                    if "image_url" in product and product["image_url"]:
-                        print(f"   画像: {product['image_url']}")
             
             # 割引情報の表示
             if new_discounted_items:
@@ -1072,8 +1062,6 @@ def main():
                     print(f"   割引額: {product['discount_amount']:,.0f}円 ({product['discount_percent']:.1f}%オフ)")
                     print(f"   URL: {product['detail_page_url']}")
                     
-                    if "image_url" in product and product["image_url"]:
-                        print(f"   画像: {product['image_url']}")
             
             print("\n" + "="*70)
         
