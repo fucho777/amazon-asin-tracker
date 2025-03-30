@@ -11787,3 +11787,78 @@ Unauthorized
 2025-03-30 10:45:48,509 - INFO - Amazonが販売する商品のみに絞り込み: 0件
 2025-03-30 10:45:48,511 - INFO - 検索結果を asin_results.json に保存しました
 2025-03-30 10:45:48,511 - INFO - 新しい入荷商品や割引商品は見つかりませんでした
+2025-03-30 10:52:51,812 - INFO - ==== Amazon ASIN Tracker 実行開始 ====
+2025-03-30 10:52:51,812 - INFO - 実行時刻: 2025-03-30 10:52:51
+2025-03-30 10:52:51,812 - INFO - 環境変数を読み込みました
+2025-03-30 10:52:51,812 - INFO - Amazon PA-API認証情報チェック:
+2025-03-30 10:52:51,812 - INFO -   PA_API_KEY: 設定済み
+2025-03-30 10:52:51,812 - INFO -   PA_API_SECRET: 設定済み
+2025-03-30 10:52:51,812 - INFO -   PARTNER_TAG: 設定済み
+2025-03-30 10:52:51,812 - INFO -   PA-API利用準備: OK
+2025-03-30 10:52:51,812 - INFO - Twitter API認証情報チェック:
+2025-03-30 10:52:51,813 - INFO -   Twitter API利用準備: OK
+2025-03-30 10:52:51,813 - INFO - Threads API認証情報チェック:
+2025-03-30 10:52:51,813 - INFO -   Threads API利用準備: OK
+2025-03-30 10:52:51,813 - INFO - 必要なファイルの確認:
+2025-03-30 10:52:51,813 - INFO -   tracking_asins.json: 存在します
+2025-03-30 10:52:51,813 - INFO -   asin_results.json: 存在します
+2025-03-30 10:52:51,814 - INFO - 最小割引率: 5%
+2025-03-30 10:52:51,814 - INFO - 追跡ASIN数: 73
+2025-03-30 10:52:51,815 - INFO - 商品情報取得中... ASIN: B0BSN426TP, B0DYS9QRGT, B0DX6FT5MM, B0DT6SN14V, B0DXNFMZWJ, B0DT6RMFLK, B0DN63QJ4V, B0DTY4H1CB, B0DQGB8FTQ, B0BSLJ52ZF
+2025-03-30 10:52:58,104 - INFO - 商品情報取得中... ASIN: B0DTJFZ4YS, B0DVSLLCDH, B0DT9YQ2Q1, B0BSN9VR7K, B0DVSMG4Z2, B0DN5HJ1ZF, B0DN5SQJSC, B0DYMVWMX4, B0DGJBMY85, B0DXVJLW28
+2025-03-30 10:53:04,405 - INFO - 商品情報取得中... ASIN: B0DXTZLS9C, B0DGJ3QSGC, B0DZ62D3MP, B0DGHYJRSB, B0DGJ8MR3X, B0DGHYNDT7, B0DGHVX1PD, B0DGHYNDT9, B0DGJ8RK9X, B0DGJ6B4MS
+2025-03-30 10:53:10,726 - INFO - 商品情報取得中... ASIN: B0DGJ8XY8J, B0DGJC8DP9, B0DZ619GJ8, B0DRPQPQQC, B0DZBXKDJV, B0DRPRZMK2, B0DXS47DPV, B0DX7GSX7B, B0DGJ8DP89, B0DGJ6BK8C
+2025-03-30 10:53:17,075 - INFO - 商品情報取得中... ASIN: B0DGJ5ZGXT, B0DGJD1P8Q, B0DGJCZDX1, B0DGJBMMCV, B0DZBRCV9G, B0DYSFPXF6, B0DGJBY82G, B0CWCTSC1M, B0DXRXWJ3Z, B0DXSHNYGW
+2025-03-30 10:53:23,423 - INFO - 商品情報取得中... ASIN: B0DZBP4NMT, B0DXSF1BXJ, B0DXRH32TF, B0DTHQ428K, B0DTHR5JDB, B0DJ2DJHJ7, B01C3SCKI6, B0DYSH7P7K, B0D7Z4541Q, B0DMZX1QFL
+2025-03-30 10:53:29,843 - INFO - 商品情報取得中... ASIN: B0DZXC4BB3, B0DYSPNZXF, B0DVFML7T3, B0B1DJB527, B0CXD5Y18N, B0DVFX1Y56, B0DVG8G5VN, B0DVG2WC4V, B0D46M9DHD, B0842WLDHW
+2025-03-30 10:53:36,531 - INFO - 商品情報取得中... ASIN: B07D2DVX6D, B07D2H99P5, B0DZWSVB5F
+2025-03-30 10:53:39,913 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G SUPRI... (B0BSN426TP) - 販売元: オンラインショップEVERYTHING
+2025-03-30 10:53:39,913 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5070Ti... (B0DX6FT5MM) - 販売元: yosifukushop
+2025-03-30 10:53:39,913 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G SUPRI... (B0DT6SN14V) - 販売元: 不明
+2025-03-30 10:53:39,913 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5090 ビ... (B0DXNFMZWJ) - 販売元: yosifukushop
+2025-03-30 10:53:39,913 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G VANGU... (B0DT6RMFLK) - 販売元: 久我山商店
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5080 ビ... (B0DN63QJ4V) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5080 ビ... (B0DTY4H1CB) - 販売元: SUNNU【爆速/本物/ｲﾝﾎﾞｲｽ/古物商】
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5080 16G GAMIN... (B0DQGB8FTQ) - 販売元: ◎Thank U store
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5080 16G VANGU... (B0BSLJ52ZF) - 販売元: S.Y SHOP〈インボイス対応〉
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: PNY GeFORCE RTX 5080 16GB Over... (B0DTJFZ4YS) - 販売元: TSBrelief webショップ
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: GIGABYTE NVIDIA RTX5080 搭載 グラフ... (B0DVSLLCDH) - 販売元: 【売り切りセール中】きたさんショップ
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: Gigabyte AORUS GeForce RTX 508... (B0DT9YQ2Q1) - 販売元: Value Market Tokyo
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5080 16G VENTU... (B0BSN9VR7K) - 販売元: でんでんマーケット(インボイス登録済)
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: GIGABYTE NVIDIA RTX5080 搭載 グラフ... (B0DVSMG4Z2) - 販売元: さくら流通
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 Pro Max (512 G... (B0DN5HJ1ZF) - 販売元: 不明
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 Pro Max (512 G... (B0DN5SQJSC) - 販売元: 不明
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: ZOTAC GAMING GeForce RTX 5080 ... (B0DYMVWMX4) - 販売元: すーショップ
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 Pro Max (512 G... (B0DGJBMY85) - 販売元: 不明
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: GIGABYTE NVIDIA RTX5070Ti 搭載 グ... (B0DXVJLW28) - 販売元: TSBrelief webショップ
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: ZOTAC GAMING GeForce RTX 5070 ... (B0DXTZLS9C) - 販売元: yosifukushop
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 (512 GB) - ホワイ... (B0DGHYJRSB) - 販売元: 不明
+2025-03-30 10:53:39,914 - INFO - Amazon以外の販売元のため対象外: SAPPHIRE NITRO+ Radeon RX 9070... (B0DRPQPQQC) - 販売元: NASUKOショップ(すり替え防止対策店）
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: ASUS AMD Radeon RX9070XT 搭載 ビデ... (B0DZBXKDJV) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: SAPPHIRE PULSE Radeon RX 9070 ... (B0DRPRZMK2) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5070 12G GAMIN... (B0DX7GSX7B) - 販売元: ライラック・ショップ
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 Plus (128 GB) ... (B0DGJ6BK8C) - 販売元: 不明
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: ASUS AMD Radeon RX9070 搭載 ビデオカ... (B0DZBRCV9G) - 販売元: NASUKOショップ(すり替え防止対策店）
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: Powercolor Radeon RX9070 搭載 グラ... (B0CWCTSC1M) - 販売元: 天満市場ECモール本店（インボイス対応済み）
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: SAPPHIRE PULSE Radeon RX 9070 ... (B0DZBP4NMT) - 販売元: すーショップ
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: PlayStation 5 "モンスターハンターワイルズ" ... (B0DTHQ428K) - 販売元: ﻿Amazonアウトレット
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: PlayStation 5 デジタル・エディション "モンス... (B0DTHR5JDB) - 販売元: ナンモ店
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS METAL BUILD 機... (B0DJ2DJHJ7) - 販売元: ハグ・ベア【盗難多発の為、置配対応不可】【※抜取、すり替え対策実施中！】
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: シグマ(Sigma) レンズ 30mm F1.4 DC DN... (B01C3SCKI6) - 販売元: ECカレント
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS Tamashii Art ... (B0DYSH7P7K) - 販売元: はるぽよ【適格請求書発行事業者（インボイス）】
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: 富士フイルム(FUJIFILM) インスタントカメラ チェキ... (B0D7Z4541Q) - 販売元: hit-market  あなたの欲しいにヒットする
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS METAL ROBOT魂 ... (B0DMZX1QFL) - 販売元: ホビーショップまるさんかくしかく
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: 【任天堂純正品】ニンテンドーサウンドクロック Alarmo ... (B0DZXC4BB3) - 販売元: トアールショップ
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS S.H.フィギュアーツ（真... (B0DYSPNZXF) - 販売元: 〚親切、丁寧〛ララストア（適格請求書発行事業者）
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVFML7T3) - 販売元: 大阪物販取引所
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: Google グーグル GA01919-JP [Chrome... (B0B1DJB527) - 販売元: ゆうなぎ商店
+2025-03-30 10:53:39,915 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVFX1Y56) - 販売元: yショップ上小田
+2025-03-30 10:53:39,916 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVG8G5VN) - 販売元: 合同会社3739 ネット販売部門
+2025-03-30 10:53:39,916 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVG2WC4V) - 販売元: ストア　ｔｓｒｒ
+2025-03-30 10:53:39,916 - INFO - Amazon以外の販売元のため対象外: バンダイ (BANDAI) ONE PIECEカードゲーム ... (B0D46M9DHD) - 販売元: MYA SAFE SHOP
+2025-03-30 10:53:39,916 - INFO - Amazon以外の販売元のため対象外: 竹鶴ピュアモルト [ ウイスキー 日本 700ml ]... (B0842WLDHW) - 販売元: 好川酒店
+2025-03-30 10:53:39,916 - INFO - Amazon以外の販売元のため対象外: 富士フイルム(FUJIFILM) インスタントカメラ チェキ... (B07D2H99P5) - 販売元: AOshop 毎日発送
+2025-03-30 10:53:39,916 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5070 12G VENTU... (B0DZWSVB5F) - 販売元: 【当日出荷】14時決済完了分（日除く）【販売一丁目】
+2025-03-30 10:53:39,916 - INFO - Amazonが販売する商品のみに絞り込み: 0件
+2025-03-30 10:53:39,918 - INFO - 検索結果を asin_results.json に保存しました
+2025-03-30 10:53:39,918 - INFO - 新しい入荷商品や割引商品は見つかりませんでした
