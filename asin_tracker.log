@@ -87,3 +87,18 @@ Traceback (most recent call last):
   File "/home/runner/work/amazon-asin-tracker/amazon-asin-tracker/amazon_asin_tracker.py", line 169, in main
     config = load_asin_list()
 NameError: name 'load_asin_list' is not defined
+2025-04-06 05:49:19,420 - INFO - ==== Amazon ASIN Tracker 実行開始 ====
+2025-04-06 05:49:19,420 - INFO - 実行時刻: 2025-04-06 05:49:19
+2025-04-06 05:49:19,421 - INFO - 環境変数を読み込みました
+2025-04-06 05:49:19,421 - INFO - Amazon PA-API認証情報チェック:
+2025-04-06 05:49:19,421 - INFO -   PA_API_KEY: 設定済み
+2025-04-06 05:49:19,421 - INFO -   PA_API_SECRET: 設定済み
+2025-04-06 05:49:19,421 - INFO -   PARTNER_TAG: 設定済み
+2025-04-06 05:49:19,421 - INFO -   PA-API利用準備: OK
+2025-04-06 05:49:19,421 - INFO - Twitter API認証情報チェック:
+2025-04-06 05:49:19,421 - INFO -   Twitter API利用準備: OK
+2025-04-06 05:49:19,421 - INFO - Threads API認証情報チェック:
+2025-04-06 05:49:19,421 - INFO -   Threads API利用準備: OK
+2025-04-06 05:49:19,421 - INFO - 必要なファイルの確認:
+2025-04-06 05:49:19,421 - INFO -   tracking_asins.json: 存在します
+2025-04-06 05:49:19,421 - INFO -   asin_results.json: 存在します
