@@ -5767,3 +5767,250 @@ Too Many Requests
 2025-04-06 18:59:25,232 - INFO - Threadsに投稿しました: シグマ(Sigma) レンズ 30mm F1.4 DC DN...
 2025-04-06 18:59:25,232 - INFO - Threads投稿結果(割引): 成功
 2025-04-06 18:59:30,237 - INFO - ==== 処理が完了しました ====
+2025-04-06 19:20:40,718 - INFO - ==== Amazon ASIN Tracker 実行開始 ====
+2025-04-06 19:20:40,718 - INFO - 実行時刻: 2025-04-06 19:20:40
+2025-04-06 19:20:40,718 - INFO - 環境変数を読み込みました
+2025-04-06 19:20:40,718 - INFO - Amazon PA-API認証情報チェック:
+2025-04-06 19:20:40,718 - INFO -   PA_API_KEY: 設定済み
+2025-04-06 19:20:40,718 - INFO -   PA_API_SECRET: 設定済み
+2025-04-06 19:20:40,718 - INFO -   PARTNER_TAG: 設定済み
+2025-04-06 19:20:40,718 - INFO -   PA-API利用準備: OK
+2025-04-06 19:20:40,718 - INFO - Twitter API認証情報チェック:
+2025-04-06 19:20:40,718 - INFO -   Twitter API利用準備: OK
+2025-04-06 19:20:40,718 - INFO - Threads API認証情報チェック:
+2025-04-06 19:20:40,719 - INFO -   Threads API利用準備: OK
+2025-04-06 19:20:40,719 - INFO - 必要なファイルの確認:
+2025-04-06 19:20:40,719 - INFO -   tracking_asins.json: 存在します
+2025-04-06 19:20:40,719 - INFO -   asin_results.json: 存在します
+2025-04-06 19:20:40,720 - INFO - 最小割引率: 5%
+2025-04-06 19:20:40,720 - INFO - 追跡ASIN数: 73
+2025-04-06 19:20:40,720 - INFO - 商品情報取得中... ASIN: B0BSN426TP, B0DYS9QRGT, B0DX6FT5MM, B0DT6SN14V, B0DXNFMZWJ, B0DT6RMFLK, B0DN63QJ4V, B0DTY4H1CB, B0DQGB8FTQ, B0BSLJ52ZF
+2025-04-06 19:20:47,243 - INFO - 商品情報取得中... ASIN: B0DTJFZ4YS, B0DVSLLCDH, B0DT9YQ2Q1, B0BSN9VR7K, B0DVSMG4Z2, B0DN5HJ1ZF, B0DN5SQJSC, B0DYMVWMX4, B0DGJBMY85, B0DXVJLW28
+2025-04-06 19:20:53,647 - INFO - 商品情報取得中... ASIN: B0DXTZLS9C, B0DGJ3QSGC, B0DZ62D3MP, B0DGHYJRSB, B0DGJ8MR3X, B0DGHYNDT7, B0DGHVX1PD, B0DGHYNDT9, B0DGJ8RK9X, B0DGJ6B4MS
+2025-04-06 19:21:00,056 - INFO - 商品情報取得中... ASIN: B0DGJ8XY8J, B0DGJC8DP9, B0DZ619GJ8, B0DRPQPQQC, B0DZBXKDJV, B0DRPRZMK2, B0DXS47DPV, B0DX7GSX7B, B0DGJ8DP89, B0DGJ6BK8C
+2025-04-06 19:21:06,416 - INFO - 商品情報取得中... ASIN: B0DGJ5ZGXT, B0DGJD1P8Q, B0DGJCZDX1, B0DGJBMMCV, B0DZBRCV9G, B0DYSFPXF6, B0DGJBY82G, B0CWCTSC1M, B0DXRXWJ3Z, B0DXSHNYGW
+2025-04-06 19:21:12,652 - INFO - 商品情報取得中... ASIN: B0DZBP4NMT, B0DXSF1BXJ, B0DXRH32TF, B0DTHQ428K, B0DTHR5JDB, B0DJ2DJHJ7, B01C3SCKI6, B0DYSH7P7K, B0D7Z4541Q, B0DMZX1QFL
+2025-04-06 19:21:18,912 - INFO - 商品情報取得中... ASIN: B0DZXC4BB3, B0DYSPNZXF, B0DVFML7T3, B0B1DJB527, B0CXD5Y18N, B0DVFX1Y56, B0DVG8G5VN, B0DVG2WC4V, B0D46M9DHD, B0842WLDHW
+2025-04-06 19:21:25,239 - INFO - 商品情報取得中... ASIN: B07D2DVX6D, B07D2H99P5, B0DZWSVB5F
+2025-04-06 19:21:28,485 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G SUPRI... (B0BSN426TP) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-06 19:21:28,485 - INFO - Amazon在庫あり: GAINWARD RTX 5070 PHOENIX 12GB... (B0DYS9QRGT)
+2025-04-06 19:21:28,485 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5070Ti... (B0DX6FT5MM) - 販売元: MDCY STORE（すり替え対策・古物商認可・適格請求書発行事業）
+2025-04-06 19:21:28,485 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G SUPRI... (B0DT6SN14V) - 販売元: 不明
+2025-04-06 19:21:28,485 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5090 ビ... (B0DXNFMZWJ) - 販売元: yosifukushop
+2025-04-06 19:21:28,485 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G VANGU... (B0DT6RMFLK) - 販売元: 久我山商店
+2025-04-06 19:21:28,485 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5080 ビ... (B0DN63QJ4V) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-06 19:21:28,486 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5080 ビ... (B0DTY4H1CB) - 販売元: でんでんマーケット(インボイス登録済)
+2025-04-06 19:21:28,486 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5080 16G GAMIN... (B0DQGB8FTQ) - 販売元: TOYストア【インボイス番号登録済み】
+2025-04-06 19:21:28,486 - INFO - Amazon在庫あり: MSI GeForce RTX 5080 16G VANGU... (B0BSLJ52ZF)
+2025-04-06 19:21:28,486 - INFO - Amazon在庫あり: PNY GeFORCE RTX 5080 16GB Over... (B0DTJFZ4YS)
+2025-04-06 19:21:28,486 - INFO - Amazon在庫あり: GIGABYTE NVIDIA RTX5080 搭載 グラフ... (B0DVSLLCDH)
+2025-04-06 19:21:28,486 - INFO - Amazon以外の販売元のため対象外: Gigabyte AORUS GeForce RTX 508... (B0DT9YQ2Q1) - 販売元: zikgootime
+2025-04-06 19:21:28,486 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5080 16G VENTU... (B0BSN9VR7K) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-06 19:21:28,486 - INFO - Amazon在庫あり: GIGABYTE NVIDIA RTX5080 搭載 グラフ... (B0DVSMG4Z2)
+2025-04-06 19:21:28,486 - INFO - Amazon在庫あり: Apple iPhone 16 Pro Max (512 G... (B0DN5HJ1ZF)
+2025-04-06 19:21:28,486 - INFO - Amazon在庫あり: Apple iPhone 16 Pro Max (512 G... (B0DN5SQJSC)
+2025-04-06 19:21:28,486 - INFO - Amazon以外の販売元のため対象外: ZOTAC GAMING GeForce RTX 5080 ... (B0DYMVWMX4) - 販売元: すーショップ
+2025-04-06 19:21:28,486 - INFO - Amazon在庫あり: Apple iPhone 16 Pro Max (512 G... (B0DGJBMY85)
+2025-04-06 19:21:28,486 - INFO - Amazon以外の販売元のため対象外: GIGABYTE NVIDIA RTX5070Ti 搭載 グ... (B0DXVJLW28) - 販売元: yosifukushop
+2025-04-06 19:21:28,486 - INFO - Amazon以外の販売元のため対象外: ZOTAC GAMING GeForce RTX 5070 ... (B0DXTZLS9C) - 販売元: yosifukushop
+2025-04-06 19:21:28,486 - INFO - Amazon在庫あり: Apple iPhone 16 Plus (512 GB) ... (B0DGJ3QSGC)
+2025-04-06 19:21:28,486 - INFO - Amazon在庫あり: ASUS RTX5070 搭載 ビデオカード PCIe 5.... (B0DZ62D3MP)
+2025-04-06 19:21:28,486 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 (512 GB) - ホワイ... (B0DGHYJRSB) - 販売元: 不明
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: Apple iPhone 16 (512 GB) - ピンク... (B0DGJ8MR3X)
+2025-04-06 19:21:28,487 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 (512 GB) - ブラッ... (B0DGHYNDT7) - 販売元: 不明
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: Apple iPhone 16 (512 GB) - ティー... (B0DGHVX1PD)
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: Apple iPhone 16 (512 GB) - ウルト... (B0DGHYNDT9)
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: Apple iPhone 16 Pro (128 GB) -... (B0DGJ8RK9X)
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: Apple iPhone 16 Pro (128 GB) -... (B0DGJ6B4MS)
+2025-04-06 19:21:28,487 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 Pro (128 GB) -... (B0DGJ8XY8J) - 販売元: 不明
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: Apple iPhone 16 Pro (128 GB) -... (B0DGJC8DP9)
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: ASUS RTX5070 搭載 ビデオカード PCIe 5.... (B0DZ619GJ8)
+2025-04-06 19:21:28,487 - INFO - Amazon以外の販売元のため対象外: SAPPHIRE NITRO+ Radeon RX 9070... (B0DRPQPQQC) - 販売元: trippodoshop
+2025-04-06 19:21:28,487 - INFO - Amazon以外の販売元のため対象外: ASUS AMD Radeon RX9070XT 搭載 ビデ... (B0DZBXKDJV) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-06 19:21:28,487 - INFO - Amazon以外の販売元のため対象外: SAPPHIRE PULSE Radeon RX 9070 ... (B0DRPRZMK2) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: iPhone 16e 512GB: Apple Intell... (B0DXS47DPV)
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: MSI GeForce RTX 5070 12G GAMIN... (B0DX7GSX7B)
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: Apple iPhone 16 Plus (128 GB) ... (B0DGJ8DP89)
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: Apple iPhone 16 Plus (128 GB) ... (B0DGJ6BK8C)
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: Apple iPhone 16 Plus (128 GB) ... (B0DGJ5ZGXT)
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: Apple iPhone 16 (256 GB) - ホワイ... (B0DGJD1P8Q)
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: Apple iPhone 16 (256 GB) - ピンク... (B0DGJCZDX1)
+2025-04-06 19:21:28,487 - INFO - Amazon在庫あり: Apple iPhone 16 (256 GB) - ウルト... (B0DGJBMMCV)
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: ASUS AMD Radeon RX9070 搭載 ビデオカ... (B0DZBRCV9G) - 販売元: yosifukushop
+2025-04-06 19:21:28,488 - INFO - Amazon在庫あり: ZOTAC GAMING GeForce RTX 5070 ... (B0DYSFPXF6)
+2025-04-06 19:21:28,488 - INFO - Amazon在庫あり: Apple iPhone 16 (128 GB) - ピンク... (B0DGJBY82G)
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: Powercolor Radeon RX9070 搭載 グラ... (B0CWCTSC1M) - 販売元: 天満市場ECモール本店（インボイス対応済み）
+2025-04-06 19:21:28,488 - INFO - Amazon在庫あり: iPhone 16e 256GB: Apple Intell... (B0DXRXWJ3Z)
+2025-04-06 19:21:28,488 - INFO - Amazon在庫あり: iPhone 16e 256GB: Apple Intell... (B0DXSHNYGW)
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: SAPPHIRE PULSE Radeon RX 9070 ... (B0DZBP4NMT) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-06 19:21:28,488 - INFO - Amazon在庫あり: iPhone 16e 128GB: Apple Intell... (B0DXSF1BXJ)
+2025-04-06 19:21:28,488 - INFO - Amazon在庫あり: iPhone 16e 128GB: Apple Intell... (B0DXRH32TF)
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: PlayStation 5 "モンスターハンターワイルズ" ... (B0DTHQ428K) - 販売元: General　store
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: PlayStation 5 デジタル・エディション "モンス... (B0DTHR5JDB) - 販売元: ナンモ店
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS METAL BUILD 機... (B0DJ2DJHJ7) - 販売元: ハグ・ベア【盗難多発の為、置配対応不可】【※抜取、すり替え対策実施中！】
+2025-04-06 19:21:28,488 - INFO - Amazon在庫あり: シグマ(Sigma) レンズ 30mm F1.4 DC DN... (B01C3SCKI6)
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS Tamashii Art ... (B0DYSH7P7K) - 販売元: first step ts
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: 富士フイルム(FUJIFILM) インスタントカメラ チェキ... (B0D7Z4541Q) - 販売元: hit-market  あなたの欲しいにヒットする
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS METAL ROBOT魂 ... (B0DMZX1QFL) - 販売元: ホビーショップまるさんかくしかく
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: 【任天堂純正品】ニンテンドーサウンドクロック Alarmo ... (B0DZXC4BB3) - 販売元: 通販ショップの駿河屋
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS S.H.フィギュアーツ（真... (B0DYSPNZXF) - 販売元: 翠星商店
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVFML7T3) - 販売元: 迅速発送！あんしん本舗
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: Google グーグル GA01919-JP [Chrome... (B0B1DJB527) - 販売元: ダクダク商店
+2025-04-06 19:21:28,488 - INFO - Amazon以外の販売元のため対象外: ポケモンカードゲーム スカーレット＆バイオレット 拡張パック... (B0CXD5Y18N) - 販売元: 【最速配達】ワンダープライス ★セール開催中★
+2025-04-06 19:21:28,489 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVFX1Y56) - 販売元: ギフト.
+2025-04-06 19:21:28,489 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVG8G5VN) - 販売元: トイスタジアム（土日祝日はお休みです/プライム商品は毎営業日発送可能!!）
+2025-04-06 19:21:28,489 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVG2WC4V) - 販売元: arigato shop
+2025-04-06 19:21:28,489 - INFO - Amazon以外の販売元のため対象外: バンダイ (BANDAI) ONE PIECEカードゲーム ... (B0D46M9DHD) - 販売元: おとくとく屋
+2025-04-06 19:21:28,489 - INFO - Amazon以外の販売元のため対象外: 竹鶴ピュアモルト [ ウイスキー 日本 700ml ]... (B0842WLDHW) - 販売元: 洋酒専門店 サケコレ
+2025-04-06 19:21:28,489 - INFO - Amazon在庫あり: instax 富士フイルム(FUJIFILM) インスタント... (B07D2DVX6D)
+2025-04-06 19:21:28,489 - INFO - Amazon以外の販売元のため対象外: 富士フイルム(FUJIFILM) インスタントカメラ チェキ... (B07D2H99P5) - 販売元: ギズモ
+2025-04-06 19:21:28,489 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5070 12G VENTU... (B0DZWSVB5F) - 販売元: 【当日出荷】14時決済完了分（日除く）【販売一丁目】
+2025-04-06 19:21:28,489 - INFO - Amazonが販売する商品のみに絞り込み: 2件
+2025-04-06 19:21:28,489 - INFO - 合計 2件の割引商品が見つかりました
+2025-04-06 19:21:28,490 - INFO - 検索結果を asin_results.json に保存しました
+2025-04-06 19:21:28,490 - INFO - 投稿する商品があるため、Twitterクライアントを初期化します
+2025-04-06 19:21:28,726 - INFO - Twitter API v2認証成功: @zaikochecker
+2025-04-06 19:21:28,726 - INFO - Twitterクライアントを初期化しました
+2025-04-06 19:21:28,726 - INFO - Amazon在庫商品 5件を投稿します
+2025-04-06 19:21:28,726 - INFO - Amazon在庫商品 1/5 を投稿: GAINWARD RTX 5070 PHOENIX 12GB...
+2025-04-06 19:21:28,795 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:21:33,869 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:21:38,938 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:21:38,938 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-06 19:21:38,938 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-06 19:21:38,938 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-06 19:21:41,481 - INFO - Threads投稿: コンテナID取得成功: 18037584509251558
+2025-04-06 19:21:41,481 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:21:41,800 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"APG9woELPwj3QN5Hq5qkhef"}}
+2025-04-06 19:21:49,537 - INFO - Threads投稿: コンテナID取得成功: 18057103205276838
+2025-04-06 19:21:49,537 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:21:49,850 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"AWyG8iDgDI-GZ4EedhgZXur"}}
+2025-04-06 19:21:57,125 - INFO - Threads投稿: コンテナID取得成功: 17928745380019887
+2025-04-06 19:21:57,125 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:21:57,465 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"AowQZEI5EFNpt-yps5OxOK-"}}
+2025-04-06 19:21:57,465 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-06 19:22:02,470 - INFO - Amazon在庫商品 2/5 を投稿: MSI GeForce RTX 5080 16G VANGU...
+2025-04-06 19:22:02,538 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:22:07,608 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:22:12,681 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:22:12,681 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-06 19:22:12,681 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-06 19:22:12,681 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-06 19:22:14,884 - INFO - Threads投稿: コンテナID取得成功: 18044857238377094
+2025-04-06 19:22:14,884 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:22:15,217 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"AmOlQVhOqFasOFiCIdP8t0S"}}
+2025-04-06 19:22:22,314 - INFO - Threads投稿: コンテナID取得成功: 17986791356800886
+2025-04-06 19:22:22,314 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:22:22,658 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"A9jhaebLeC1HwYC-ZJEz6Kh"}}
+2025-04-06 19:22:31,120 - INFO - Threads投稿: コンテナID取得成功: 18365278618123282
+2025-04-06 19:22:31,120 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:22:31,443 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"ADx90XHOXGxr2kCXMGdq_qj"}}
+2025-04-06 19:22:31,443 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-06 19:22:36,448 - INFO - Amazon在庫商品 3/5 を投稿: PNY GeFORCE RTX 5080 16GB Over...
+2025-04-06 19:22:36,532 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:22:41,611 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:22:46,681 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:22:46,681 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-06 19:22:46,681 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-06 19:22:46,681 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-06 19:22:50,113 - INFO - Threads投稿: コンテナID取得成功: 17979242042821250
+2025-04-06 19:22:50,113 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:22:50,460 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"ArTwLu8rEs6quNTJ28du9KF"}}
+2025-04-06 19:22:58,326 - INFO - Threads投稿: コンテナID取得成功: 18133778212405144
+2025-04-06 19:22:58,326 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:22:58,688 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"AFGt4RrrIuOys1vV9FVJ9Qx"}}
+2025-04-06 19:23:05,928 - INFO - Threads投稿: コンテナID取得成功: 18037834232533201
+2025-04-06 19:23:05,928 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:23:06,247 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"AhgF8OACPFgbT5PgH1xAfM0"}}
+2025-04-06 19:23:06,247 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-06 19:23:11,252 - INFO - Amazon在庫商品 4/5 を投稿: GIGABYTE NVIDIA RTX5080 搭載 グラフ...
+2025-04-06 19:23:11,318 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:23:16,387 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:23:21,456 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:23:21,456 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-06 19:23:21,456 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-06 19:23:21,456 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-06 19:23:24,583 - INFO - Threads投稿: コンテナID取得成功: 18322967242165758
+2025-04-06 19:23:24,584 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:23:24,893 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"A_hzK32aMW2ptLFTfJFbDYL"}}
+2025-04-06 19:23:31,771 - INFO - Threads投稿: コンテナID取得成功: 18067559000509346
+2025-04-06 19:23:31,771 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:23:32,074 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"Al2JwzY2OBg4OKJp4_9QF0u"}}
+2025-04-06 19:23:39,890 - INFO - Threads投稿: コンテナID取得成功: 17938904741995868
+2025-04-06 19:23:39,890 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:23:40,228 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"AvFUKtLKgu8SGZRUcdSYMyI"}}
+2025-04-06 19:23:40,228 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-06 19:23:45,234 - INFO - Amazon在庫商品 5/5 を投稿: GIGABYTE NVIDIA RTX5080 搭載 グラフ...
+2025-04-06 19:23:45,301 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:23:50,368 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:23:55,437 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:23:55,437 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-06 19:23:55,437 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-06 19:23:55,437 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-06 19:23:57,689 - INFO - Threads投稿: コンテナID取得成功: 17949495188957203
+2025-04-06 19:23:57,689 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:23:57,981 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"AsJbUEcmHwqj3ujFXH3SERS"}}
+2025-04-06 19:24:06,374 - INFO - Threads投稿: コンテナID取得成功: 18157750240358142
+2025-04-06 19:24:06,375 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:24:06,710 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"AYTUR0ytdGt8W6Q46RMRO7k"}}
+2025-04-06 19:24:14,377 - INFO - Threads投稿: コンテナID取得成功: 18169461280334853
+2025-04-06 19:24:14,377 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:24:14,629 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"AG0gr66eVTBBkexegDGyNop"}}
+2025-04-06 19:24:14,629 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-06 19:24:19,634 - INFO - 割引商品 2件を投稿します
+2025-04-06 19:24:19,635 - INFO - 割引商品 1/2 を投稿: MSI GeForce RTX 5070 12G GAMIN...
+2025-04-06 19:24:19,700 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:24:24,766 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:24:29,841 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:24:29,841 - INFO - Twitter投稿結果(割引): 失敗
+2025-04-06 19:24:29,841 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-06 19:24:29,841 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: discount）
+2025-04-06 19:24:32,225 - INFO - Threads投稿: コンテナID取得成功: 17862120603304822
+2025-04-06 19:24:32,225 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:24:32,519 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"A_UIciqopM-daaEAl4Act17"}}
+2025-04-06 19:24:40,091 - INFO - Threads投稿: コンテナID取得成功: 18062406926059609
+2025-04-06 19:24:40,091 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:24:40,412 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"A24uwfbsTEY6bTLihbj2KtU"}}
+2025-04-06 19:24:48,329 - INFO - Threads投稿: コンテナID取得成功: 18039883502199640
+2025-04-06 19:24:48,329 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:24:48,690 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"A0HlNoDlUCD5i8kuS2jgjbu"}}
+2025-04-06 19:24:48,690 - INFO - Threads投稿結果(割引): 失敗
+2025-04-06 19:24:53,696 - INFO - 割引商品 2/2 を投稿: シグマ(Sigma) レンズ 30mm F1.4 DC DN...
+2025-04-06 19:24:53,761 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:24:58,851 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:25:03,947 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-06 19:25:03,947 - INFO - Twitter投稿結果(割引): 失敗
+2025-04-06 19:25:03,947 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-06 19:25:03,947 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: discount）
+2025-04-06 19:25:06,099 - INFO - Threads投稿: コンテナID取得成功: 17946161834960448
+2025-04-06 19:25:06,099 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:25:06,501 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"Aj9Mvu57sXFS87Oon_oZ5lO"}}
+2025-04-06 19:25:14,509 - INFO - Threads投稿: コンテナID取得成功: 18036728945283243
+2025-04-06 19:25:14,509 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:25:14,923 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"A4gubchHtQSWeYHmH0vHD1o"}}
+2025-04-06 19:25:21,888 - INFO - Threads投稿: コンテナID取得成功: 18094709275492979
+2025-04-06 19:25:21,888 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-06 19:25:22,219 - ERROR - Threads投稿: 公開エラー: ステータスコード 400, レスポンス: {"error":{"message":"Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"error_subcode":4279002,"is_transient":false,"error_user_title":"Threads API Rate Limit Exceeded","error_user_msg":"You have exceeded your allowed allotment of posts on Threads.","fbtrace_id":"ApaLYQzL--DVhieAEt7Jelb"}}
+2025-04-06 19:25:22,219 - INFO - Threads投稿結果(割引): 失敗
+2025-04-06 19:25:27,225 - INFO - ==== 処理が完了しました ====
