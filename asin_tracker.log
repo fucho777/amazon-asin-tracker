@@ -102,3 +102,18 @@ NameError: name 'load_asin_list' is not defined
 2025-04-06 05:49:19,421 - INFO - 必要なファイルの確認:
 2025-04-06 05:49:19,421 - INFO -   tracking_asins.json: 存在します
 2025-04-06 05:49:19,421 - INFO -   asin_results.json: 存在します
+2025-04-06 05:50:25,727 - INFO - ==== Amazon ASIN Tracker 実行開始 ====
+2025-04-06 05:50:25,727 - INFO - 実行時刻: 2025-04-06 05:50:25
+2025-04-06 05:50:25,727 - INFO - 環境変数を読み込みました
+2025-04-06 05:50:25,728 - INFO - Amazon PA-API認証情報チェック:
+2025-04-06 05:50:25,728 - INFO -   PA_API_KEY: 設定済み
+2025-04-06 05:50:25,728 - INFO -   PA_API_SECRET: 設定済み
+2025-04-06 05:50:25,728 - INFO -   PARTNER_TAG: 設定済み
+2025-04-06 05:50:25,728 - INFO -   PA-API利用準備: OK
+2025-04-06 05:50:25,728 - INFO - Twitter API認証情報チェック:
+2025-04-06 05:50:25,728 - INFO -   Twitter API利用準備: OK
+2025-04-06 05:50:25,728 - INFO - Threads API認証情報チェック:
+2025-04-06 05:50:25,728 - INFO -   Threads API利用準備: OK
+2025-04-06 05:50:25,728 - INFO - 必要なファイルの確認:
+2025-04-06 05:50:25,728 - INFO -   tracking_asins.json: 存在します
+2025-04-06 05:50:25,728 - INFO -   asin_results.json: 存在します
