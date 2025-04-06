@@ -67,3 +67,23 @@
 2025-04-06 05:33:14,805 - INFO - Amazonが販売する商品のみに絞り込み: 2件
 2025-04-06 05:33:14,807 - INFO - 検索結果を asin_results.json に保存しました
 2025-04-06 05:33:14,807 - INFO - 新しい入荷商品や割引商品は見つかりませんでした
+2025-04-06 05:46:38,355 - INFO - ==== Amazon ASIN Tracker 実行開始 ====
+2025-04-06 05:46:38,355 - INFO - 実行時刻: 2025-04-06 05:46:38
+2025-04-06 05:46:38,355 - INFO - 環境変数を読み込みました
+2025-04-06 05:46:38,355 - INFO - Amazon PA-API認証情報チェック:
+2025-04-06 05:46:38,355 - INFO -   PA_API_KEY: 設定済み
+2025-04-06 05:46:38,355 - INFO -   PA_API_SECRET: 設定済み
+2025-04-06 05:46:38,355 - INFO -   PARTNER_TAG: 設定済み
+2025-04-06 05:46:38,355 - INFO -   PA-API利用準備: OK
+2025-04-06 05:46:38,355 - INFO - Twitter API認証情報チェック:
+2025-04-06 05:46:38,355 - INFO -   Twitter API利用準備: OK
+2025-04-06 05:46:38,355 - INFO - Threads API認証情報チェック:
+2025-04-06 05:46:38,355 - INFO -   Threads API利用準備: OK
+2025-04-06 05:46:38,356 - INFO - 必要なファイルの確認:
+2025-04-06 05:46:38,356 - INFO -   tracking_asins.json: 存在します
+2025-04-06 05:46:38,356 - INFO -   asin_results.json: 存在します
+2025-04-06 05:46:38,357 - ERROR - 予期しないエラーが発生しました: name 'load_asin_list' is not defined
+Traceback (most recent call last):
+  File "/home/runner/work/amazon-asin-tracker/amazon-asin-tracker/amazon_asin_tracker.py", line 169, in main
+    config = load_asin_list()
+NameError: name 'load_asin_list' is not defined
