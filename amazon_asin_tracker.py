@@ -509,7 +509,7 @@ def post_to_twitter(client, product, notification_type="discount"):
             post += f"✅ 現在価格: {current_price:,.0f}円\n"
             post += f"❌ 元の価格: {original_price:,.0f}円\n"
             post += f"💰 割引額: {discount_amount:,.0f}円\n\n"
-            post += f"🛒 商品ページ: {product['detail_page_url']}\n\n"
+            post += f"🔗 {product['detail_page_url']}\n\n"
         
         elif notification_type == "instock":
             # 入荷情報の投稿
@@ -524,7 +524,7 @@ def post_to_twitter(client, product, notification_type="discount"):
             post += f"📋 在庫状況: {availability}\n"
             if seller:
                 post += f"🏪 販売: {seller}\n"
-            post += f"\n🛒 商品ページ: {product['detail_page_url']}\n\n"
+            post += f"🔗 {product['detail_page_url']}\n\n"
         
         else:
             # その他の変更（汎用フォーマット）
@@ -533,7 +533,7 @@ def post_to_twitter(client, product, notification_type="discount"):
             if product.get("current_price"):
                 post += f"💲 価格: {product['current_price']:,.0f}円\n"
             post += f"📋 在庫状況: {product.get('availability', '不明')}\n\n"
-            post += f"🛒 商品ページ: {product['detail_page_url']}\n\n"
+            post += f"🔗 {product['detail_page_url']}\n\n"
         
         # 投稿が250文字を超える場合は調整
         if len(post) > 250:
