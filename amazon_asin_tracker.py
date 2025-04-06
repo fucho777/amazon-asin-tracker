@@ -489,56 +489,9 @@ def setup_twitter_api():
         logger.error(f"Twitter API認証エラー: {e}")
         return None
 
-def setup_twitter_api():
-    """Twitter APIの設定"""
-    if not twitter_ready:
-        logger.warning("Twitter認証情報が不足しています。Twitter投稿はスキップされます。")
-        return None
-        
-    try:
-        # OAuth 1.0a認証の追加
-        auth = tweepy.OAuthHandler(
-            TWITTER_CONSUMER_KEY, 
-            TWITTER_CONSUMER_SECRET
-        )
-        auth.set_access_token(
-            TWITTER_ACCESS_TOKEN, 
-            TWITTER_ACCESS_TOKEN_SECRET
-        )
-        
-        # v1.1 APIクライアントの作成
-        api_v1 = tweepy.API(auth)
-        
-        # v2 APIクライアントの作成
-        client = tweepy.Client(
-            consumer_key=TWITTER_CONSUMER_KEY,
-            consumer_secret=TWITTER_CONSUMER_SECRET,
-            access_token=TWITTER_ACCESS_TOKEN,
-            access_token_secret=TWITTER_ACCESS_TOKEN_SECRET
-        )
-        
-        # 認証テスト
-        try:
-            me = client.get_me()
-            if me.data:
-                logger.info(f"Twitter API v2認証成功: @{me.data.username}")
-                return {
-                    'v1': api_v1,
-                    'v2': client
-                }
-            else:
-                logger.error("Twitter認証に失敗しました")
-                return None
-        except Exception as e:
-            logger.error(f"Twitter認証テストエラー: {e}")
-            return None
-    except Exception as e:
-        logger.error(f"Twitter API認証エラー: {e}")
-        return None
-
-def post_to_twitter(client_dict, product, notification_type="discount"):
+def post_to_twitter(client, product, notification_type="discount"):
     """Xに商品情報を投稿"""
-    if not client_dict:
+    if not client:
         logger.error("Twitter APIクライアントが初期化されていません")
         return False
     
@@ -596,7 +549,7 @@ def post_to_twitter(client_dict, product, notification_type="discount"):
         for attempt in range(MAX_RETRIES):
             try:
                 # v2 APIでツイート
-                response = client_dict['v2'].create_tweet(text=post)
+                response = client.create_tweet(text=post)
                 if response.data and 'id' in response.data:
                     tweet_id = response.data['id']
                     logger.info(f"Xに投稿しました: ID={tweet_id} {product['title'][:30]}...")
