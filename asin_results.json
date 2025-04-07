@@ -1,16 +1,150 @@
 [
   {
+    "asin": "B0BSN426TP",
+    "title": "MSI GeForce RTX 5090 32G SUPRIM LIQUID SOC グラフィックスカード VD8996",
+    "current_price": 678000.0,
+    "original_price": null,
+    "image_url": "https://m.media-amazon.com/images/I/41sNU4eavLL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0BSN426TP?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "通常2～3日以内に発送します。",
+    "is_in_stock": false,
+    "seller": "オンラインショップEVERYTHING",
+    "is_amazon": false,
+    "timestamp": "2025-04-07 17:32:48"
+  },
+  {
+    "asin": "B0DYS9QRGT",
+    "title": "GAINWARD RTX 5070 PHOENIX 12GB GDDR7 192bit 3-DP HDMI グラフィックスボード NE75070019K9-GB2050X VD9017",
+    "current_price": 123029.0,
+    "original_price": null,
+    "image_url": "https://m.media-amazon.com/images/I/51KIlSDFmgL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DYS9QRGT?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "一時的に在庫切れ; 入荷時期は未定です。注文確定後、入荷時期が確定次第、お届け予定日をEメールでお知らせします。万が一、入荷できないことが判明した場合、やむを得ず、ご注文をキャンセルさせていただくことがあります。商品の代金は発送時に請求いたします。",
+    "is_in_stock": true,
+    "seller": "Amazon.co.jp",
+    "is_amazon": true,
+    "timestamp": "2025-04-07 17:32:48"
+  },
+  {
+    "asin": "B0DX6FT5MM",
+    "title": "ASUS NVIDIA GeForce RTX 5070Ti ビデオカード 16GB GDDR7 PCI Express 5.0 / PRIME-RTX5070TI-O16G 国内正規代理店品",
+    "current_price": 196000.0,
+    "original_price": null,
+    "image_url": "https://m.media-amazon.com/images/I/41BE4jXFfwL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DX6FT5MM?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "在庫あり。",
+    "is_in_stock": true,
+    "seller": "MDCY STORE（すり替え対策・古物商認可・適格請求書発行事業）",
+    "is_amazon": false,
+    "timestamp": "2025-04-07 17:32:48"
+  },
+  {
+    "asin": "B0DT6SN14V",
+    "title": "MSI GeForce RTX 5090 32G SUPRIM SOC グラフィックスカード VD8997",
+    "current_price": null,
+    "original_price": null,
+    "image_url": "https://m.media-amazon.com/images/I/41itNYvDq6L._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DT6SN14V?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "不明",
+    "is_in_stock": false,
+    "seller": "不明",
+    "is_amazon": false,
+    "timestamp": "2025-04-07 17:32:48"
+  },
+  {
+    "asin": "B0DXNFMZWJ",
+    "title": "ASUS NVIDIA GeForce RTX 5090 ビデオカード OC Edition 32GB GDDR7 PCI Express 5.0 / TUF-RTX5090-O32G-GAMING 国内正規代理店品",
+    "current_price": 700000.0,
+    "original_price": null,
+    "image_url": "https://m.media-amazon.com/images/I/410wBWjv3XL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DXNFMZWJ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "在庫あり。",
+    "is_in_stock": true,
+    "seller": "B&T(国内発送,すり替え対策済,English OK)",
+    "is_amazon": false,
+    "timestamp": "2025-04-07 17:32:48"
+  },
+  {
+    "asin": "B0DT6RMFLK",
+    "title": "MSI GeForce RTX 5090 32G VANGUARD SOC LAUNCH EDITION グラフィックスカード VD8998",
+    "current_price": 650000.0,
+    "original_price": null,
+    "image_url": "https://m.media-amazon.com/images/I/41K-NxDD0nL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DT6RMFLK?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "在庫あり。",
+    "is_in_stock": true,
+    "seller": "久我山商店",
+    "is_amazon": false,
+    "timestamp": "2025-04-07 17:32:48"
+  },
+  {
+    "asin": "B0DN63QJ4V",
+    "title": "ASUS NVIDIA GeForce RTX 5080 ビデオカード 16GB GDDR7 PCI Express 5.0 / ROG-ASTRAL-RTX5080-O16G-GAMING 国内正規代理店品",
+    "current_price": 376200.0,
+    "original_price": null,
+    "image_url": "https://m.media-amazon.com/images/I/41jO3qo1H9L._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DN63QJ4V?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "在庫あり。",
+    "is_in_stock": true,
+    "seller": "オンラインショップEVERYTHING",
+    "is_amazon": false,
+    "timestamp": "2025-04-07 17:32:48"
+  },
+  {
+    "asin": "B0DTY4H1CB",
+    "title": "ASUS NVIDIA GeForce RTX 5080 ビデオカード 16GB GDDR7 PCI Express 5.0 / TUF-RTX5080-O16G-GAMING 国内正規代理店品",
+    "current_price": 304700.0,
+    "original_price": null,
+    "image_url": "https://m.media-amazon.com/images/I/41UUiubs6WL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DTY4H1CB?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "在庫あり。",
+    "is_in_stock": true,
+    "seller": "e-store 迅速発送",
+    "is_amazon": false,
+    "timestamp": "2025-04-07 17:32:48"
+  },
+  {
+    "asin": "B0DQGB8FTQ",
+    "title": "MSI GeForce RTX 5080 16G GAMING TRIO OC WHITE グラフィックスカード VD8976",
+    "current_price": 185916.0,
+    "original_price": 263505.0,
+    "image_url": "https://m.media-amazon.com/images/I/41sgTduweEL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DQGB8FTQ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "在庫あり。",
+    "is_in_stock": true,
+    "seller": "﻿Amazonアウトレット",
+    "is_amazon": false,
+    "timestamp": "2025-04-07 17:32:48",
+    "discount_amount": 77589.0,
+    "discount_percent": 29.44498206865145
+  },
+  {
+    "asin": "B0BSLJ52ZF",
+    "title": "MSI GeForce RTX 5080 16G VANGUARD SOC LAUNCH EDITION グラフィックスカード VD8973",
+    "current_price": 271509.0,
+    "original_price": null,
+    "image_url": "https://m.media-amazon.com/images/I/41E3jQM05vL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0BSLJ52ZF?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "在庫あり。",
+    "is_in_stock": true,
+    "seller": "Amazon.co.jp",
+    "is_amazon": true,
+    "timestamp": "2025-04-07 17:32:48"
+  },
+  {
     "asin": "B0DTJFZ4YS",
     "title": "PNY GeFORCE RTX 5080 16GB Overclocked TripleFan グラフィックスボード VCG508016TFXPB1-O VD9010",
-    "current_price": 257375.0,
-    "original_price": null,
+    "current_price": 227044.0,
+    "original_price": 257375.0,
     "image_url": "https://m.media-amazon.com/images/I/41YLAAF4rvL._SL500_.jpg",
     "detail_page_url": "https://www.amazon.co.jp/dp/B0DTJFZ4YS?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "availability": "在庫あり。",
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:56:49"
+    "timestamp": "2025-04-07 17:33:06",
+    "discount_amount": 30331.0,
+    "discount_percent": 11.784749878581836
   },
   {
     "asin": "B0DVSLLCDH",
@@ -23,7 +157,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:56:49"
+    "timestamp": "2025-04-07 17:33:06"
   },
   {
     "asin": "B0DT9YQ2Q1",
@@ -36,7 +170,7 @@
     "is_in_stock": false,
     "seller": "zikgootime",
     "is_amazon": false,
-    "timestamp": "2025-04-07 16:56:49"
+    "timestamp": "2025-04-07 17:33:06"
   },
   {
     "asin": "B0BSN9VR7K",
@@ -47,9 +181,9 @@
     "detail_page_url": "https://www.amazon.co.jp/dp/B0BSN9VR7K?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "availability": "在庫あり。",
     "is_in_stock": true,
-    "seller": "でんでんマーケット(インボイス登録済)",
+    "seller": "B&T(国内発送,すり替え対策済,English OK)",
     "is_amazon": false,
-    "timestamp": "2025-04-07 16:56:49"
+    "timestamp": "2025-04-07 17:33:06"
   },
   {
     "asin": "B0DVSMG4Z2",
@@ -62,7 +196,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:56:49"
+    "timestamp": "2025-04-07 17:33:06"
   },
   {
     "asin": "B0DN5HJ1ZF",
@@ -75,7 +209,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:56:49"
+    "timestamp": "2025-04-07 17:33:06"
   },
   {
     "asin": "B0DN5SQJSC",
@@ -88,7 +222,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:56:49"
+    "timestamp": "2025-04-07 17:33:06"
   },
   {
     "asin": "B0DYMVWMX4",
@@ -101,7 +235,7 @@
     "is_in_stock": true,
     "seller": "すーショップ",
     "is_amazon": false,
-    "timestamp": "2025-04-07 16:56:49"
+    "timestamp": "2025-04-07 17:33:06"
   },
   {
     "asin": "B0DGJBMY85",
@@ -114,7 +248,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:56:49"
+    "timestamp": "2025-04-07 17:33:06"
   },
   {
     "asin": "B0DXVJLW28",
@@ -127,7 +261,7 @@
     "is_in_stock": true,
     "seller": "yosifukushop",
     "is_amazon": false,
-    "timestamp": "2025-04-07 16:56:49"
+    "timestamp": "2025-04-07 17:33:06"
   },
   {
     "asin": "B0DXTZLS9C",
@@ -140,7 +274,7 @@
     "is_in_stock": true,
     "seller": "富岡商事",
     "is_amazon": false,
-    "timestamp": "2025-04-07 16:56:55"
+    "timestamp": "2025-04-07 17:33:13"
   },
   {
     "asin": "B0DGJ3QSGC",
@@ -153,7 +287,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:56:55"
+    "timestamp": "2025-04-07 17:33:13"
   },
   {
     "asin": "B0DZ62D3MP",
@@ -166,7 +300,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:56:55"
+    "timestamp": "2025-04-07 17:33:13"
   },
   {
     "asin": "B0DGHYJRSB",
@@ -179,7 +313,7 @@
     "is_in_stock": false,
     "seller": "不明",
     "is_amazon": false,
-    "timestamp": "2025-04-07 16:56:55"
+    "timestamp": "2025-04-07 17:33:13"
   },
   {
     "asin": "B0DGJ8MR3X",
@@ -192,7 +326,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:56:55"
+    "timestamp": "2025-04-07 17:33:13"
   },
   {
     "asin": "B0DGHYNDT7",
@@ -205,7 +339,7 @@
     "is_in_stock": false,
     "seller": "不明",
     "is_amazon": false,
-    "timestamp": "2025-04-07 16:56:55"
+    "timestamp": "2025-04-07 17:33:13"
   },
   {
     "asin": "B0DGHVX1PD",
@@ -218,7 +352,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:56:55"
+    "timestamp": "2025-04-07 17:33:13"
   },
   {
     "asin": "B0DGHYNDT9",
@@ -231,7 +365,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:56:55"
+    "timestamp": "2025-04-07 17:33:13"
   },
   {
     "asin": "B0DGJ8RK9X",
@@ -244,7 +378,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:56:55"
+    "timestamp": "2025-04-07 17:33:13"
   },
   {
     "asin": "B0DGJ6B4MS",
@@ -257,399 +391,139 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:56:55"
+    "timestamp": "2025-04-07 17:33:13"
   },
   {
-    "asin": "B0DGJ8XY8J",
-    "title": "Apple iPhone 16 Pro (128 GB) - ブラックチタニウム",
-    "current_price": null,
+    "asin": "B0DZBP4NMT",
+    "title": "SAPPHIRE PULSE Radeon RX 9070 GAMING 16GB グラフィックスボード 11349-03-20G VD9104",
+    "current_price": 142000.0,
     "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/311Br-1WZ9L._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DGJ8XY8J?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "不明",
-    "is_in_stock": false,
-    "seller": "不明",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:57:02"
-  },
-  {
-    "asin": "B0DGJC8DP9",
-    "title": "Apple iPhone 16 Pro (128 GB) - ナチュラルチタニウム",
-    "current_price": 161414.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/31hImvnaCNL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DGJC8DP9?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "Amazon.co.jp",
-    "is_amazon": true,
-    "timestamp": "2025-04-07 16:57:02"
-  },
-  {
-    "asin": "B0DZ619GJ8",
-    "title": "ASUS RTX5070 搭載 ビデオカード PCIe 5.0 12GB GDDR7 OC Edition PRIME-RTX5070-O12G 国内正規代理店品",
-    "current_price": 151313.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/41ovDuGASWL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DZ619GJ8?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "Amazon.co.jp",
-    "is_amazon": true,
-    "timestamp": "2025-04-07 16:57:02"
-  },
-  {
-    "asin": "B0DRPQPQQC",
-    "title": "SAPPHIRE NITRO+ Radeon RX 9070 GAMING OC 16GB グラフィックスボード 11349-01-20G VD8986",
-    "current_price": 152671.26,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/41LJihDPcwL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DRPQPQQC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "trippodoshop",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:57:02"
-  },
-  {
-    "asin": "B0DZBXKDJV",
-    "title": "ASUS AMD Radeon RX9070XT 搭載 ビデオカード PCIe 5.0 16GB GDDR6 PRIME-RX9070XT-O16G 国内正規代理店品",
-    "current_price": 163000.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/41mjcQzjiRL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DZBXKDJV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "image_url": "https://m.media-amazon.com/images/I/41p-cTcfgBL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DZBP4NMT?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "availability": "在庫あり。",
     "is_in_stock": true,
     "seller": "B&T(国内発送,すり替え対策済,English OK)",
     "is_amazon": false,
-    "timestamp": "2025-04-07 16:57:02"
+    "timestamp": "2025-04-07 17:34:21"
   },
   {
-    "asin": "B0DRPRZMK2",
-    "title": "SAPPHIRE PULSE Radeon RX 9070 XT GAMING 16GB グラフィックスボード 11348-03-20G VD8985",
-    "current_price": 159800.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/41strWW0YdL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DRPRZMK2?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "不明",
-    "is_in_stock": false,
-    "seller": "オンラインショップ　motojun",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:57:02"
-  },
-  {
-    "asin": "B0DXS47DPV",
-    "title": "iPhone 16e 512GB: Apple Intelligence のために設計、A18 チップ、パワフルに進 化したバッテリー、48MP Fusion カメラ、6.1 インチの Super Retina XDR ディスプレイ; ホワイト",
-    "current_price": 144800.0,
+    "asin": "B0DXSF1BXJ",
+    "title": "iPhone 16e 128GB: Apple Intelligence のために設計、A18 チップ、パワフルに進 化したバッテリー、48MP Fusion カメラ、6.1 インチの Super Retina XDR ディスプレイ; ホワイト",
+    "current_price": 99800.0,
     "original_price": null,
     "image_url": "https://m.media-amazon.com/images/I/31tQEFAVROL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DXS47DPV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DXSF1BXJ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "availability": "在庫あり。",
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:57:02"
+    "timestamp": "2025-04-07 17:34:21"
   },
   {
-    "asin": "B0DX7GSX7B",
-    "title": "MSI GeForce RTX 5070 12G GAMING TRIO OC グラフィックスボード VD9068",
-    "current_price": 132480.0,
-    "original_price": 205150.0,
-    "image_url": "https://m.media-amazon.com/images/I/41ME-h5Xl3L._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DX7GSX7B?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "【セール中！】セブンセントラルストア【インボイス対応】",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:57:02",
-    "discount_amount": 72670.0,
-    "discount_percent": 35.422861320984644
-  },
-  {
-    "asin": "B0DGJ8DP89",
-    "title": "Apple iPhone 16 Plus (128 GB) - ピンク",
-    "current_price": 139800.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/3120FixzEgL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DGJ8DP89?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "Amazon.co.jp",
-    "is_amazon": true,
-    "timestamp": "2025-04-07 16:57:02"
-  },
-  {
-    "asin": "B0DGJ6BK8C",
-    "title": "Apple iPhone 16 Plus (128 GB) - ブラック",
-    "current_price": 139800.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/31OW--3SXyL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DGJ6BK8C?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "Amazon.co.jp",
-    "is_amazon": true,
-    "timestamp": "2025-04-07 16:57:02"
-  },
-  {
-    "asin": "B0DGJ5ZGXT",
-    "title": "Apple iPhone 16 Plus (128 GB) - ウルトラマリン",
-    "current_price": 139800.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/31KGENHdc7L._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DGJ5ZGXT?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "Amazon.co.jp",
-    "is_amazon": true,
-    "timestamp": "2025-04-07 16:57:08"
-  },
-  {
-    "asin": "B0DGJD1P8Q",
-    "title": "Apple iPhone 16 (256 GB) - ホワイト",
-    "current_price": 141212.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/31nP-o9MU-L._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DGJD1P8Q?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "Amazon.co.jp",
-    "is_amazon": true,
-    "timestamp": "2025-04-07 16:57:08"
-  },
-  {
-    "asin": "B0DGJCZDX1",
-    "title": "Apple iPhone 16 (256 GB) - ピンク",
-    "current_price": 139800.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/31nWnVExfqL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DGJCZDX1?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "Amazon.co.jp",
-    "is_amazon": true,
-    "timestamp": "2025-04-07 16:57:08"
-  },
-  {
-    "asin": "B0DGJBMMCV",
-    "title": "Apple iPhone 16 (256 GB) - ウルトラマリン",
-    "current_price": 139800.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/31lr3Ij6iBL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DGJBMMCV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "Amazon.co.jp",
-    "is_amazon": true,
-    "timestamp": "2025-04-07 16:57:08"
-  },
-  {
-    "asin": "B0DZBRCV9G",
-    "title": "ASUS AMD Radeon RX9070 搭載 ビデオカード PCIe 5.0 16GB GDDR6 TUF-RX9070-O16G-GAMING 国内正規代理店品",
-    "current_price": 154800.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/31d6xUXu-WL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DZBRCV9G?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "yosifukushop",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:57:08"
-  },
-  {
-    "asin": "B0DYSFPXF6",
-    "title": "ZOTAC GAMING GeForce RTX 5070 SOLID OC 12GB GDDR7 グラフィックスボード ZT-B50700J-10P VD9074",
-    "current_price": 120000.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/41tA+hQZLfL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DYSFPXF6?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "一時的に在庫切れ; 入荷時期は未定です。注文確定後、入荷時期が確定次第、お届け予定日をEメールでお知らせします。万が一、入荷できないことが判明した場合、やむを得ず、ご注文をキャンセルさせていただくことがあります。商品の代金は発送時に請求いたします。",
-    "is_in_stock": true,
-    "seller": "Amazon.co.jp",
-    "is_amazon": true,
-    "timestamp": "2025-04-07 16:57:08"
-  },
-  {
-    "asin": "B0DGJBY82G",
-    "title": "Apple iPhone 16 (128 GB) - ピンク",
-    "current_price": 124800.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/31nWnVExfqL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DGJBY82G?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "Amazon.co.jp",
-    "is_amazon": true,
-    "timestamp": "2025-04-07 16:57:08"
-  },
-  {
-    "asin": "B0CWCTSC1M",
-    "title": "Powercolor Radeon RX9070 搭載 グラフィックボード GDDR6 16GB【国内正規代理店品】RX9070 16G-L/OC",
-    "current_price": 149000.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/41gd1mgPVPL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0CWCTSC1M?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "B&T(国内発送,すり替え対策済,English OK)",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:57:08"
-  },
-  {
-    "asin": "B0DXRXWJ3Z",
-    "title": "iPhone 16e 256GB: Apple Intelligence のために設計、A18 チップ、パワフルに進 化したバッテリー、48MP Fusion カメラ、6.1 インチの Super Retina XDR ディスプレイ; ブラック",
-    "current_price": 114800.0,
+    "asin": "B0DXRH32TF",
+    "title": "iPhone 16e 128GB: Apple Intelligence のために設計、A18 チップ、パワフルに進 化したバッテリー、48MP Fusion カメラ、6.1 インチの Super Retina XDR ディスプレイ; ブラック",
+    "current_price": 99800.0,
     "original_price": null,
     "image_url": "https://m.media-amazon.com/images/I/312f0xDpXzL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DXRXWJ3Z?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DXRH32TF?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "availability": "在庫あり。",
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:57:08"
+    "timestamp": "2025-04-07 17:34:21"
   },
   {
-    "asin": "B0DXSHNYGW",
-    "title": "iPhone 16e 256GB: Apple Intelligence のために設計、A18 チップ、パワフルに進 化したバッテリー、48MP Fusion カメラ、6.1 インチの Super Retina XDR ディスプレイ; ホワイト",
-    "current_price": 114800.0,
+    "asin": "B0DTHQ428K",
+    "title": "PlayStation 5 \"モンスターハンターワイルズ\" 同梱版(CFIJ-10025)",
+    "current_price": 92980.0,
     "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/31tQEFAVROL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DXSHNYGW?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "image_url": "https://m.media-amazon.com/images/I/31u2z1+YLGL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DTHQ428K?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "在庫あり。",
+    "is_in_stock": true,
+    "seller": "Online Store COMACHI",
+    "is_amazon": false,
+    "timestamp": "2025-04-07 17:34:21"
+  },
+  {
+    "asin": "B0DTHR5JDB",
+    "title": "PlayStation 5 デジタル・エディション \"モンスターハンターワイルズ\" 同梱版(CFIJ-10026)",
+    "current_price": 85500.0,
+    "original_price": null,
+    "image_url": "https://m.media-amazon.com/images/I/31fDhlpqH-L._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DTHR5JDB?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "在庫あり。",
+    "is_in_stock": true,
+    "seller": "ナンモ店",
+    "is_amazon": false,
+    "timestamp": "2025-04-07 17:34:21"
+  },
+  {
+    "asin": "B0DJ2DJHJ7",
+    "title": "TAMASHII NATIONS METAL BUILD 機動戦士Zガンダム ゼータガンダム 約190mm PVC&ABS&ダイキャスト製 塗装済み可動フィギュア",
+    "current_price": 53400.0,
+    "original_price": null,
+    "image_url": "https://m.media-amazon.com/images/I/31amAT8UcOL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DJ2DJHJ7?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "この商品の発売予定日は2025年4月26日です。ただいま予約受付中です。",
+    "is_in_stock": false,
+    "seller": "ハグ・ベア【盗難多発の為、置配対応不可】【※抜取、すり替え対策実施中！】",
+    "is_amazon": false,
+    "timestamp": "2025-04-07 17:34:21"
+  },
+  {
+    "asin": "B01C3SCKI6",
+    "title": "シグマ(Sigma) レンズ 30mm F1.4 DC DN Sony ソニー Eマウント 単焦点 標準 APS-C ミラーレス用 Contemporary",
+    "current_price": 44582.0,
+    "original_price": 51840.0,
+    "image_url": "https://m.media-amazon.com/images/I/31eks6xFaOL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B01C3SCKI6?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "availability": "在庫あり。",
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:57:08"
+    "timestamp": "2025-04-07 17:34:21",
+    "discount_amount": 7258.0,
+    "discount_percent": 14.000771604938272
   },
   {
-    "asin": "B0DZXC4BB3",
-    "title": "【任天堂純正品】ニンテンドーサウンドクロック Alarmo (アラーモ)",
-    "current_price": 14945.0,
+    "asin": "B0DYSH7P7K",
+    "title": "TAMASHII NATIONS Tamashii Art ドラゴンボールZ ドラゴンボール 孫悟空＆龍 約275mm PVC&ABS製 塗装済み完成品フィギュア",
+    "current_price": 32820.0,
     "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/41Hq6ZzJseL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DZXC4BB3?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "この商品の発売予定日は2025年5月22日です。ただいま予約受付中です。",
+    "image_url": "https://m.media-amazon.com/images/I/41A25t1PPSL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DYSH7P7K?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "この商品の発売予定日は2025年10月31日です。ただいま予約受付中です。",
     "is_in_stock": false,
-    "seller": "通販ショップの駿河屋",
+    "seller": "first step ts",
     "is_amazon": false,
-    "timestamp": "2025-04-07 16:58:00"
+    "timestamp": "2025-04-07 17:34:21"
   },
   {
-    "asin": "B0DYSPNZXF",
-    "title": "TAMASHII NATIONS S.H.フィギュアーツ（真骨彫製法） 仮面ライダー龍騎 約145mm PVC&ABS製 塗装済み可動フィギュア",
-    "current_price": 14000.0,
+    "asin": "B0D7Z4541Q",
+    "title": "富士フイルム(FUJIFILM) インスタントカメラ チェキWIDE instax WIDE 400 INS WIDE 400",
+    "current_price": 26200.0,
     "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/31MieN34hdL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DYSPNZXF?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "この商品の発売予定日は2025年9月2日です。ただいま予約受付中です。",
+    "image_url": "https://m.media-amazon.com/images/I/41L1DSxWPfL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0D7Z4541Q?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "在庫あり。",
+    "is_in_stock": true,
+    "seller": "hit-market  あなたの欲しいにヒットする",
+    "is_amazon": false,
+    "timestamp": "2025-04-07 17:34:21"
+  },
+  {
+    "asin": "B0DMZX1QFL",
+    "title": "TAMASHII NATIONS METAL ROBOT魂 機動戦士ガンダムSEED DESTINY ＜SIDE MS＞ ストライクフリーダムガンダム [Re:Coordinate] 約140mm PVC&ABS&ダイキャスト製 塗装済み可動フィギュア",
+    "current_price": 25150.0,
+    "original_price": null,
+    "image_url": "https://m.media-amazon.com/images/I/41BfxCqUakL._SL500_.jpg",
+    "detail_page_url": "https://www.amazon.co.jp/dp/B0DMZX1QFL?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "availability": "この商品の発売予定日は2025年6月30日です。ただいま予約受付中です。",
     "is_in_stock": false,
-    "seller": "〚親切、丁寧〛ララストア（適格請求書発行事業者）",
+    "seller": "ホビーショップまるさんかくしかく",
     "is_amazon": false,
-    "timestamp": "2025-04-07 16:58:00"
-  },
-  {
-    "asin": "B0DVFML7T3",
-    "title": "[バンダイ(BANDAI)] Tamagotchi Connection×メゾピアノ",
-    "current_price": 9900.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/41jlrLAf81L._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DVFML7T3?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "ハイネショップ本店",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:58:00"
-  },
-  {
-    "asin": "B0B1DJB527",
-    "title": "Google グーグル GA01919-JP [Chromecast with Google TV](4Kモデル)",
-    "current_price": 10700.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/21ZmkDQW+iL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0B1DJB527?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "【インボイス登録事業者】オンラインショップ清",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:58:00"
-  },
-  {
-    "asin": "B0CXD5Y18N",
-    "title": "ポケモンカードゲーム スカーレット＆バイオレット 拡張パック ステラミラクル BOX",
-    "current_price": 5720.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/5161nxOrCaL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0CXD5Y18N?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "おもちゃのマツダ",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:58:00"
-  },
-  {
-    "asin": "B0DVFX1Y56",
-    "title": "[バンダイ(BANDAI)] Tamagotchi Connection×ポンポネット",
-    "current_price": 8900.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/41qe0KYh75L._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DVFX1Y56?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "エイト88",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:58:00"
-  },
-  {
-    "asin": "B0DVG8G5VN",
-    "title": "[バンダイ(BANDAI)] Tamagotchi Connection×デイジーラヴァーズ",
-    "current_price": 6380.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/41lNWozoG+L._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DVG8G5VN?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "IJOK STORE",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:58:00"
-  },
-  {
-    "asin": "B0DVG2WC4V",
-    "title": "[バンダイ(BANDAI)] Tamagotchi Connection×エンジェルブルー",
-    "current_price": 11980.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/41g2s31CerL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0DVG2WC4V?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "不明",
-    "is_in_stock": false,
-    "seller": "arigato shop",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:58:00"
-  },
-  {
-    "asin": "B0D46M9DHD",
-    "title": "バンダイ (BANDAI) ONE PIECEカードゲーム ブースターパック 新たなる皇帝【OP-09】(BOX)24パック入 対象年齢：9歳以上",
-    "current_price": 6499.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/51dzeL5t-KL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0D46M9DHD?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "おとくとく屋",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:58:00"
-  },
-  {
-    "asin": "B0842WLDHW",
-    "title": "竹鶴ピュアモルト [ ウイスキー 日本 700ml ]",
-    "current_price": 9090.0,
-    "original_price": null,
-    "image_url": "https://m.media-amazon.com/images/I/31bb2Gq8SJL._SL500_.jpg",
-    "detail_page_url": "https://www.amazon.co.jp/dp/B0842WLDHW?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "在庫あり。",
-    "is_in_stock": true,
-    "seller": "洋酒専門店 サケコレ",
-    "is_amazon": false,
-    "timestamp": "2025-04-07 16:58:00"
+    "timestamp": "2025-04-07 17:34:21"
   },
   {
     "asin": "B07D2DVX6D",
@@ -662,7 +536,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-07 16:58:13"
+    "timestamp": "2025-04-07 17:34:58"
   },
   {
     "asin": "B07D2H99P5",
@@ -675,7 +549,7 @@
     "is_in_stock": true,
     "seller": "ギズモ",
     "is_amazon": false,
-    "timestamp": "2025-04-07 16:58:13"
+    "timestamp": "2025-04-07 17:34:58"
   },
   {
     "asin": "B0DZWSVB5F",
@@ -688,6 +562,6 @@
     "is_in_stock": true,
     "seller": "【当日出荷】14時決済完了分（日除く）【販売一丁目】",
     "is_amazon": false,
-    "timestamp": "2025-04-07 16:58:13"
+    "timestamp": "2025-04-07 17:34:58"
   }
 ]
