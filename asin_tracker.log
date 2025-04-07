@@ -20489,3 +20489,152 @@ Too Many Requests
 2025-04-07 20:50:57,094 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AbHuBwFGtYE2NT2xfV7ziCA"}}
 2025-04-07 20:50:57,094 - INFO - Threads投稿結果(割引): 失敗
 2025-04-07 20:51:02,099 - INFO - ==== 処理が完了しました ====
+2025-04-07 20:52:20,753 - INFO - ==== Amazon ASIN Tracker 実行開始 ====
+2025-04-07 20:52:20,753 - INFO - 実行時刻: 2025-04-07 20:52:20
+2025-04-07 20:52:20,754 - INFO - 環境変数を読み込みました
+2025-04-07 20:52:20,754 - INFO - Amazon PA-API認証情報チェック:
+2025-04-07 20:52:20,754 - INFO -   PA_API_KEY: 設定済み
+2025-04-07 20:52:20,754 - INFO -   PA_API_SECRET: 設定済み
+2025-04-07 20:52:20,754 - INFO -   PARTNER_TAG: 設定済み
+2025-04-07 20:52:20,754 - INFO -   PA-API利用準備: OK
+2025-04-07 20:52:20,754 - INFO - Twitter API認証情報チェック:
+2025-04-07 20:52:20,754 - INFO -   Twitter API利用準備: OK
+2025-04-07 20:52:20,754 - INFO - Threads API認証情報チェック:
+2025-04-07 20:52:20,754 - INFO -   Threads API利用準備: OK
+2025-04-07 20:52:20,754 - INFO - 必要なファイルの確認:
+2025-04-07 20:52:20,754 - INFO -   tracking_asins.json: 存在します
+2025-04-07 20:52:20,754 - INFO -   asin_results.json: 存在します
+2025-04-07 20:52:20,755 - INFO - 最小割引率: 5%
+2025-04-07 20:52:20,755 - INFO - 追跡ASIN数: 73
+2025-04-07 20:52:20,755 - INFO - 商品情報取得中... ASIN: B0BSN426TP, B0DYS9QRGT, B0DX6FT5MM, B0DT6SN14V, B0DXNFMZWJ, B0DT6RMFLK, B0DN63QJ4V, B0DTY4H1CB, B0DQGB8FTQ, B0BSLJ52ZF
+2025-04-07 20:52:27,127 - INFO - 商品情報取得中... ASIN: B0DTJFZ4YS, B0DVSLLCDH, B0DT9YQ2Q1, B0BSN9VR7K, B0DVSMG4Z2, B0DN5HJ1ZF, B0DN5SQJSC, B0DYMVWMX4, B0DGJBMY85, B0DXVJLW28
+2025-04-07 20:52:27,455 - WARNING - API制限に達しました。3秒待機します。
+2025-04-07 20:52:33,721 - WARNING - API制限に達しました。6秒待機します。
+2025-04-07 20:52:43,048 - WARNING - API制限に達しました。12秒待機します。
+2025-04-07 20:52:58,064 - INFO - 商品情報取得中... ASIN: B0DXTZLS9C, B0DGJ3QSGC, B0DZ62D3MP, B0DGHYJRSB, B0DGJ8MR3X, B0DGHYNDT7, B0DGHVX1PD, B0DGHYNDT9, B0DGJ8RK9X, B0DGJ6B4MS
+2025-04-07 20:53:04,470 - INFO - 商品情報取得中... ASIN: B0DGJ8XY8J, B0DGJC8DP9, B0DZ619GJ8, B0DRPQPQQC, B0DZBXKDJV, B0DRPRZMK2, B0DXS47DPV, B0DX7GSX7B, B0DGJ8DP89, B0DGJ6BK8C
+2025-04-07 20:53:04,745 - WARNING - API制限に達しました。3秒待機します。
+2025-04-07 20:53:11,087 - WARNING - API制限に達しました。6秒待機します。
+2025-04-07 20:53:20,512 - WARNING - API制限に達しました。12秒待機します。
+2025-04-07 20:53:35,528 - INFO - 商品情報取得中... ASIN: B0DGJ5ZGXT, B0DGJD1P8Q, B0DGJCZDX1, B0DGJBMMCV, B0DZBRCV9G, B0DYSFPXF6, B0DGJBY82G, B0CWCTSC1M, B0DXRXWJ3Z, B0DXSHNYGW
+2025-04-07 20:53:42,024 - INFO - 商品情報取得中... ASIN: B0DZBP4NMT, B0DXSF1BXJ, B0DXRH32TF, B0DTHQ428K, B0DTHR5JDB, B0DJ2DJHJ7, B01C3SCKI6, B0DYSH7P7K, B0D7Z4541Q, B0DMZX1QFL
+2025-04-07 20:53:48,374 - INFO - 商品情報取得中... ASIN: B0DZXC4BB3, B0DYSPNZXF, B0DVFML7T3, B0B1DJB527, B0CXD5Y18N, B0DVFX1Y56, B0DVG8G5VN, B0DVG2WC4V, B0D46M9DHD, B0842WLDHW
+2025-04-07 20:53:48,728 - WARNING - API制限に達しました。3秒待機します。
+2025-04-07 20:54:01,763 - INFO - 商品情報取得中... ASIN: B07D2DVX6D, B07D2H99P5, B0DZWSVB5F
+2025-04-07 20:54:02,103 - WARNING - API制限に達しました。3秒待機します。
+2025-04-07 20:54:08,392 - WARNING - API制限に達しました。6秒待機します。
+2025-04-07 20:54:17,749 - WARNING - API制限に達しました。12秒待機します。
+2025-04-07 20:54:29,754 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G SUPRI... (B0BSN426TP) - 販売元: オンラインショップEVERYTHING
+2025-04-07 20:54:29,754 - INFO - Amazon在庫あり: GAINWARD RTX 5070 PHOENIX 12GB... (B0DYS9QRGT)
+2025-04-07 20:54:29,754 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5070Ti... (B0DX6FT5MM) - 販売元: MDCY STORE（すり替え対策・古物商認可・適格請求書発行事業）
+2025-04-07 20:54:29,754 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G SUPRI... (B0DT6SN14V) - 販売元: 不明
+2025-04-07 20:54:29,754 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5090 ビ... (B0DXNFMZWJ) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-07 20:54:29,754 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G VANGU... (B0DT6RMFLK) - 販売元: 久我山商店
+2025-04-07 20:54:29,754 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5080 ビ... (B0DN63QJ4V) - 販売元: オンラインショップEVERYTHING
+2025-04-07 20:54:29,754 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5080 ビ... (B0DTY4H1CB) - 販売元: e-store 迅速発送
+2025-04-07 20:54:29,754 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5080 16G GAMIN... (B0DQGB8FTQ) - 販売元: ◎Thank U store
+2025-04-07 20:54:29,754 - INFO - Amazon在庫あり: MSI GeForce RTX 5080 16G VANGU... (B0BSLJ52ZF)
+2025-04-07 20:54:29,754 - INFO - Amazon以外の販売元のため対象外: ZOTAC GAMING GeForce RTX 5070 ... (B0DXTZLS9C) - 販売元: yosifukushop
+2025-04-07 20:54:29,754 - INFO - Amazon在庫あり: Apple iPhone 16 Plus (512 GB) ... (B0DGJ3QSGC)
+2025-04-07 20:54:29,754 - INFO - Amazon在庫あり: ASUS RTX5070 搭載 ビデオカード PCIe 5.... (B0DZ62D3MP)
+2025-04-07 20:54:29,754 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 (512 GB) - ホワイ... (B0DGHYJRSB) - 販売元: 不明
+2025-04-07 20:54:29,754 - INFO - Amazon在庫あり: Apple iPhone 16 (512 GB) - ピンク... (B0DGJ8MR3X)
+2025-04-07 20:54:29,754 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 (512 GB) - ブラッ... (B0DGHYNDT7) - 販売元: 不明
+2025-04-07 20:54:29,754 - INFO - Amazon在庫あり: Apple iPhone 16 (512 GB) - ティー... (B0DGHVX1PD)
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: Apple iPhone 16 (512 GB) - ウルト... (B0DGHYNDT9)
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: Apple iPhone 16 Pro (128 GB) -... (B0DGJ8RK9X)
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: Apple iPhone 16 Pro (128 GB) -... (B0DGJ6B4MS)
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: Apple iPhone 16 Plus (128 GB) ... (B0DGJ5ZGXT)
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: Apple iPhone 16 (256 GB) - ホワイ... (B0DGJD1P8Q)
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: Apple iPhone 16 (256 GB) - ピンク... (B0DGJCZDX1)
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: Apple iPhone 16 (256 GB) - ウルト... (B0DGJBMMCV)
+2025-04-07 20:54:29,755 - INFO - Amazon以外の販売元のため対象外: ASUS AMD Radeon RX9070 搭載 ビデオカ... (B0DZBRCV9G) - 販売元: yosifukushop
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: ZOTAC GAMING GeForce RTX 5070 ... (B0DYSFPXF6)
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: Apple iPhone 16 (128 GB) - ピンク... (B0DGJBY82G)
+2025-04-07 20:54:29,755 - INFO - Amazon以外の販売元のため対象外: Powercolor Radeon RX9070 搭載 グラ... (B0CWCTSC1M) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: iPhone 16e 256GB: Apple Intell... (B0DXRXWJ3Z)
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: iPhone 16e 256GB: Apple Intell... (B0DXSHNYGW)
+2025-04-07 20:54:29,755 - INFO - Amazon以外の販売元のため対象外: SAPPHIRE PULSE Radeon RX 9070 ... (B0DZBP4NMT) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: iPhone 16e 128GB: Apple Intell... (B0DXSF1BXJ)
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: iPhone 16e 128GB: Apple Intell... (B0DXRH32TF)
+2025-04-07 20:54:29,755 - INFO - Amazon以外の販売元のため対象外: PlayStation 5 "モンスターハンターワイルズ" ... (B0DTHQ428K) - 販売元: 【適格請求書発行事業者】AI電気
+2025-04-07 20:54:29,755 - INFO - Amazon以外の販売元のため対象外: PlayStation 5 デジタル・エディション "モンス... (B0DTHR5JDB) - 販売元: ナンモ店
+2025-04-07 20:54:29,755 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS METAL BUILD 機... (B0DJ2DJHJ7) - 販売元: KATSUストアー
+2025-04-07 20:54:29,755 - INFO - Amazon在庫あり: シグマ(Sigma) レンズ 30mm F1.4 DC DN... (B01C3SCKI6)
+2025-04-07 20:54:29,755 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS Tamashii Art ... (B0DYSH7P7K) - 販売元: first step ts
+2025-04-07 20:54:29,756 - INFO - Amazon以外の販売元のため対象外: 富士フイルム(FUJIFILM) インスタントカメラ チェキ... (B0D7Z4541Q) - 販売元: hit-market  あなたの欲しいにヒットする
+2025-04-07 20:54:29,756 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS METAL ROBOT魂 ... (B0DMZX1QFL) - 販売元: ホビーショップまるさんかくしかく
+2025-04-07 20:54:29,756 - INFO - Amazon以外の販売元のため対象外: 【任天堂純正品】ニンテンドーサウンドクロック Alarmo ... (B0DZXC4BB3) - 販売元: 通販ショップの駿河屋
+2025-04-07 20:54:29,756 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS S.H.フィギュアーツ（真... (B0DYSPNZXF) - 販売元: 〚親切、丁寧〛ララストア（適格請求書発行事業者）
+2025-04-07 20:54:29,756 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVFML7T3) - 販売元: YY ストア
+2025-04-07 20:54:29,756 - INFO - Amazon以外の販売元のため対象外: Google グーグル GA01919-JP [Chrome... (B0B1DJB527) - 販売元: 【インボイス登録事業者】オンラインショップ清
+2025-04-07 20:54:29,756 - INFO - Amazon以外の販売元のため対象外: ポケモンカードゲーム スカーレット＆バイオレット 拡張パック... (B0CXD5Y18N) - 販売元: Tri Create
+2025-04-07 20:54:29,756 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVFX1Y56) - 販売元: エイト88
+2025-04-07 20:54:29,756 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVG8G5VN) - 販売元: IJOK STORE
+2025-04-07 20:54:29,756 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVG2WC4V) - 販売元: arigato shop
+2025-04-07 20:54:29,756 - INFO - Amazon以外の販売元のため対象外: バンダイ (BANDAI) ONE PIECEカードゲーム ... (B0D46M9DHD) - 販売元: SHOP-TOTO
+2025-04-07 20:54:29,756 - INFO - Amazon以外の販売元のため対象外: 竹鶴ピュアモルト [ ウイスキー 日本 700ml ]... (B0842WLDHW) - 販売元: 洋酒専門店 サケコレ
+2025-04-07 20:54:29,756 - INFO - Amazonが販売する商品のみに絞り込み: 1件
+2025-04-07 20:54:29,756 - INFO - 合計 1件の割引商品が見つかりました
+2025-04-07 20:54:29,757 - INFO - 検索結果を asin_results.json に保存しました
+2025-04-07 20:54:29,757 - INFO - 投稿する商品があるため、Twitterクライアントを初期化します
+2025-04-07 20:54:29,832 - ERROR - Twitter認証テストエラー: 429 Too Many Requests
+Too Many Requests
+2025-04-07 20:54:29,832 - WARNING - Twitterクライアントの初期化に失敗しました
+2025-04-07 20:54:29,833 - INFO - Amazon在庫商品 5件を投稿します
+2025-04-07 20:54:29,833 - INFO - Amazon在庫商品 1/5 を投稿: GAINWARD RTX 5070 PHOENIX 12GB...
+2025-04-07 20:54:29,833 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-07 20:54:29,833 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-07 20:54:31,687 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AcHpptJcHv23H_Z4CiHrVLS"}}
+2025-04-07 20:54:31,687 - INFO - リトライ待機中... 5秒
+2025-04-07 20:54:38,606 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"ALnXbNaZFuyNz4Ni54rmk_6"}}
+2025-04-07 20:54:38,606 - INFO - リトライ待機中... 10秒
+2025-04-07 20:54:50,220 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AmbG-AI6gfUH0iLosMHrigm"}}
+2025-04-07 20:54:50,221 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-07 20:54:55,226 - INFO - Amazon在庫商品 2/5 を投稿: MSI GeForce RTX 5080 16G VANGU...
+2025-04-07 20:54:55,226 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-07 20:54:55,226 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-07 20:54:56,715 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AGr2ZSBAnvJqkcLYAzopJPZ"}}
+2025-04-07 20:54:56,715 - INFO - リトライ待機中... 5秒
+2025-04-07 20:55:04,154 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"ACSAGFCQOb1456Dtyn2akcd"}}
+2025-04-07 20:55:04,154 - INFO - リトライ待機中... 10秒
+2025-04-07 20:55:15,443 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"A44JrBiPohlh1W2-6benjnV"}}
+2025-04-07 20:55:15,444 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-07 20:55:20,449 - INFO - Amazon在庫商品 3/5 を投稿: Apple iPhone 16 Plus (512 GB) ...
+2025-04-07 20:55:20,449 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-07 20:55:20,449 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-07 20:55:22,255 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AuhbCSK1ah4LxOZmHf5iKmI"}}
+2025-04-07 20:55:22,255 - INFO - リトライ待機中... 5秒
+2025-04-07 20:55:28,768 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AaBlgm2cG0mOuMNRnWeNuAW"}}
+2025-04-07 20:55:28,768 - INFO - リトライ待機中... 10秒
+2025-04-07 20:55:40,519 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AKzDfuYDLgnb7D3mw-NNWNW"}}
+2025-04-07 20:55:40,519 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-07 20:55:45,522 - INFO - Amazon在庫商品 4/5 を投稿: ASUS RTX5070 搭載 ビデオカード PCIe 5....
+2025-04-07 20:55:45,522 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-07 20:55:45,523 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-07 20:55:46,928 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AvqeoXUtk6o9ACi2iP9ktJV"}}
+2025-04-07 20:55:46,929 - INFO - リトライ待機中... 5秒
+2025-04-07 20:55:54,025 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"A8QN-zfO-bulttFIxjpmVRA"}}
+2025-04-07 20:55:54,026 - INFO - リトライ待機中... 10秒
+2025-04-07 20:56:05,301 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"A80sYAnI8jVfQIikMMcMdDF"}}
+2025-04-07 20:56:05,301 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-07 20:56:10,306 - INFO - Amazon在庫商品 5/5 を投稿: Apple iPhone 16 (512 GB) - ピンク...
+2025-04-07 20:56:10,307 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-07 20:56:10,307 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-07 20:56:11,734 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AD95PWkyZT6IdQLr6SHX5lv"}}
+2025-04-07 20:56:11,735 - INFO - リトライ待機中... 5秒
+2025-04-07 20:56:18,064 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AXWVZG6HnCZd6D3EFYVCAP0"}}
+2025-04-07 20:56:18,064 - INFO - リトライ待機中... 10秒
+2025-04-07 20:56:29,130 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AcChdk-n4uU9p_Y8mRRnvOf"}}
+2025-04-07 20:56:29,131 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-07 20:56:34,136 - INFO - 割引商品 1件を投稿します
+2025-04-07 20:56:34,136 - INFO - 割引商品 1/1 を投稿: シグマ(Sigma) レンズ 30mm F1.4 DC DN...
+2025-04-07 20:56:34,136 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-07 20:56:34,136 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: discount）
+2025-04-07 20:56:36,203 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"Av3WzAfVjr19yuc_TS5HnU0"}}
+2025-04-07 20:56:36,203 - INFO - リトライ待機中... 5秒
+2025-04-07 20:56:42,414 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AJgiU7XaATRVovNXFec8DJL"}}
+2025-04-07 20:56:42,414 - INFO - リトライ待機中... 10秒
+2025-04-07 20:56:53,510 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AOV1HApAexIWdTktk3I39mW"}}
+2025-04-07 20:56:53,510 - INFO - Threads投稿結果(割引): 失敗
+2025-04-07 20:56:58,515 - INFO - ==== 処理が完了しました ====
