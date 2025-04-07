@@ -19409,3 +19409,206 @@ Too Many Requests
 2025-04-07 18:59:25,523 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"A-9HnG8D9xuHwf3RmC6AQEk"}}
 2025-04-07 18:59:25,524 - INFO - Threads投稿結果(割引): 失敗
 2025-04-07 18:59:30,528 - INFO - ==== 処理が完了しました ====
+2025-04-07 19:24:02,374 - INFO - ==== Amazon ASIN Tracker 実行開始 ====
+2025-04-07 19:24:02,374 - INFO - 実行時刻: 2025-04-07 19:24:02
+2025-04-07 19:24:02,374 - INFO - 環境変数を読み込みました
+2025-04-07 19:24:02,375 - INFO - Amazon PA-API認証情報チェック:
+2025-04-07 19:24:02,375 - INFO -   PA_API_KEY: 設定済み
+2025-04-07 19:24:02,375 - INFO -   PA_API_SECRET: 設定済み
+2025-04-07 19:24:02,375 - INFO -   PARTNER_TAG: 設定済み
+2025-04-07 19:24:02,375 - INFO -   PA-API利用準備: OK
+2025-04-07 19:24:02,375 - INFO - Twitter API認証情報チェック:
+2025-04-07 19:24:02,375 - INFO -   Twitter API利用準備: OK
+2025-04-07 19:24:02,375 - INFO - Threads API認証情報チェック:
+2025-04-07 19:24:02,375 - INFO -   Threads API利用準備: OK
+2025-04-07 19:24:02,375 - INFO - 必要なファイルの確認:
+2025-04-07 19:24:02,375 - INFO -   tracking_asins.json: 存在します
+2025-04-07 19:24:02,375 - INFO -   asin_results.json: 存在します
+2025-04-07 19:24:02,377 - INFO - 最小割引率: 5%
+2025-04-07 19:24:02,377 - INFO - 追跡ASIN数: 73
+2025-04-07 19:24:02,377 - INFO - 商品情報取得中... ASIN: B0BSN426TP, B0DYS9QRGT, B0DX6FT5MM, B0DT6SN14V, B0DXNFMZWJ, B0DT6RMFLK, B0DN63QJ4V, B0DTY4H1CB, B0DQGB8FTQ, B0BSLJ52ZF
+2025-04-07 19:24:08,628 - INFO - 商品情報取得中... ASIN: B0DTJFZ4YS, B0DVSLLCDH, B0DT9YQ2Q1, B0BSN9VR7K, B0DVSMG4Z2, B0DN5HJ1ZF, B0DN5SQJSC, B0DYMVWMX4, B0DGJBMY85, B0DXVJLW28
+2025-04-07 19:24:08,723 - WARNING - API制限に達しました。3秒待機します。
+2025-04-07 19:24:14,835 - WARNING - API制限に達しました。6秒待機します。
+2025-04-07 19:24:28,932 - INFO - 商品情報取得中... ASIN: B0DXTZLS9C, B0DGJ3QSGC, B0DZ62D3MP, B0DGHYJRSB, B0DGJ8MR3X, B0DGHYNDT7, B0DGHVX1PD, B0DGHYNDT9, B0DGJ8RK9X, B0DGJ6B4MS
+2025-04-07 19:24:29,034 - WARNING - API制限に達しました。3秒待機します。
+2025-04-07 19:24:35,151 - WARNING - API制限に達しました。6秒待機します。
+2025-04-07 19:24:44,246 - WARNING - API制限に達しました。12秒待機します。
+2025-04-07 19:24:59,262 - INFO - 商品情報取得中... ASIN: B0DGJ8XY8J, B0DGJC8DP9, B0DZ619GJ8, B0DRPQPQQC, B0DZBXKDJV, B0DRPRZMK2, B0DXS47DPV, B0DX7GSX7B, B0DGJ8DP89, B0DGJ6BK8C
+2025-04-07 19:24:59,356 - WARNING - API制限に達しました。3秒待機します。
+2025-04-07 19:25:05,466 - WARNING - API制限に達しました。6秒待機します。
+2025-04-07 19:25:17,860 - INFO - 商品情報取得中... ASIN: B0DGJ5ZGXT, B0DGJD1P8Q, B0DGJCZDX1, B0DGJBMMCV, B0DZBRCV9G, B0DYSFPXF6, B0DGJBY82G, B0CWCTSC1M, B0DXRXWJ3Z, B0DXSHNYGW
+2025-04-07 19:25:24,070 - INFO - 商品情報取得中... ASIN: B0DZBP4NMT, B0DXSF1BXJ, B0DXRH32TF, B0DTHQ428K, B0DTHR5JDB, B0DJ2DJHJ7, B01C3SCKI6, B0DYSH7P7K, B0D7Z4541Q, B0DMZX1QFL
+2025-04-07 19:25:24,164 - WARNING - API制限に達しました。3秒待機します。
+2025-04-07 19:25:30,277 - WARNING - API制限に達しました。6秒待機します。
+2025-04-07 19:25:39,390 - WARNING - API制限に達しました。12秒待機します。
+2025-04-07 19:25:54,398 - INFO - 商品情報取得中... ASIN: B0DZXC4BB3, B0DYSPNZXF, B0DVFML7T3, B0B1DJB527, B0CXD5Y18N, B0DVFX1Y56, B0DVG8G5VN, B0DVG2WC4V, B0D46M9DHD, B0842WLDHW
+2025-04-07 19:25:54,505 - WARNING - API制限に達しました。3秒待機します。
+2025-04-07 19:26:00,616 - WARNING - API制限に達しました。6秒待機します。
+2025-04-07 19:26:09,728 - WARNING - API制限に達しました。12秒待機します。
+2025-04-07 19:26:24,743 - INFO - 商品情報取得中... ASIN: B07D2DVX6D, B07D2H99P5, B0DZWSVB5F
+2025-04-07 19:26:24,836 - WARNING - API制限に達しました。3秒待機します。
+2025-04-07 19:26:34,074 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G SUPRI... (B0BSN426TP) - 販売元: オンラインショップEVERYTHING
+2025-04-07 19:26:34,074 - INFO - Amazon在庫あり: GAINWARD RTX 5070 PHOENIX 12GB... (B0DYS9QRGT)
+2025-04-07 19:26:34,075 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5070Ti... (B0DX6FT5MM) - 販売元: MDCY STORE（すり替え対策・古物商認可・適格請求書発行事業）
+2025-04-07 19:26:34,075 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G SUPRI... (B0DT6SN14V) - 販売元: 不明
+2025-04-07 19:26:34,075 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5090 ビ... (B0DXNFMZWJ) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-07 19:26:34,075 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G VANGU... (B0DT6RMFLK) - 販売元: 久我山商店
+2025-04-07 19:26:34,075 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5080 ビ... (B0DN63QJ4V) - 販売元: オンラインショップEVERYTHING
+2025-04-07 19:26:34,075 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5080 ビ... (B0DTY4H1CB) - 販売元: e-store 迅速発送
+2025-04-07 19:26:34,075 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5080 16G GAMIN... (B0DQGB8FTQ) - 販売元: ◎Thank U store
+2025-04-07 19:26:34,075 - INFO - Amazon在庫あり: MSI GeForce RTX 5080 16G VANGU... (B0BSLJ52ZF)
+2025-04-07 19:26:34,075 - INFO - Amazon在庫あり: PNY GeFORCE RTX 5080 16GB Over... (B0DTJFZ4YS)
+2025-04-07 19:26:34,075 - INFO - Amazon在庫あり: GIGABYTE NVIDIA RTX5080 搭載 グラフ... (B0DVSLLCDH)
+2025-04-07 19:26:34,075 - INFO - Amazon以外の販売元のため対象外: Gigabyte AORUS GeForce RTX 508... (B0DT9YQ2Q1) - 販売元: zikgootime
+2025-04-07 19:26:34,075 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5080 16G VENTU... (B0BSN9VR7K) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-07 19:26:34,075 - INFO - Amazon在庫あり: GIGABYTE NVIDIA RTX5080 搭載 グラフ... (B0DVSMG4Z2)
+2025-04-07 19:26:34,075 - INFO - Amazon在庫あり: Apple iPhone 16 Pro Max (512 G... (B0DN5HJ1ZF)
+2025-04-07 19:26:34,076 - INFO - Amazon在庫あり: Apple iPhone 16 Pro Max (512 G... (B0DN5SQJSC)
+2025-04-07 19:26:34,076 - INFO - Amazon以外の販売元のため対象外: ZOTAC GAMING GeForce RTX 5080 ... (B0DYMVWMX4) - 販売元: すーショップ
+2025-04-07 19:26:34,076 - INFO - Amazon在庫あり: Apple iPhone 16 Pro Max (512 G... (B0DGJBMY85)
+2025-04-07 19:26:34,076 - INFO - Amazon以外の販売元のため対象外: GIGABYTE NVIDIA RTX5070Ti 搭載 グ... (B0DXVJLW28) - 販売元: yosifukushop
+2025-04-07 19:26:34,076 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 Pro (128 GB) -... (B0DGJ8XY8J) - 販売元: 不明
+2025-04-07 19:26:34,076 - INFO - Amazon在庫あり: Apple iPhone 16 Pro (128 GB) -... (B0DGJC8DP9)
+2025-04-07 19:26:34,076 - INFO - Amazon在庫あり: ASUS RTX5070 搭載 ビデオカード PCIe 5.... (B0DZ619GJ8)
+2025-04-07 19:26:34,076 - INFO - Amazon以外の販売元のため対象外: SAPPHIRE NITRO+ Radeon RX 9070... (B0DRPQPQQC) - 販売元: trippodoshop
+2025-04-07 19:26:34,076 - INFO - Amazon以外の販売元のため対象外: ASUS AMD Radeon RX9070XT 搭載 ビデ... (B0DZBXKDJV) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-07 19:26:34,076 - INFO - Amazon以外の販売元のため対象外: SAPPHIRE PULSE Radeon RX 9070 ... (B0DRPRZMK2) - 販売元: オンラインショップ　motojun
+2025-04-07 19:26:34,076 - INFO - Amazon在庫あり: iPhone 16e 512GB: Apple Intell... (B0DXS47DPV)
+2025-04-07 19:26:34,076 - INFO - Amazon在庫あり: MSI GeForce RTX 5070 12G GAMIN... (B0DX7GSX7B)
+2025-04-07 19:26:34,076 - INFO - Amazon在庫あり: Apple iPhone 16 Plus (128 GB) ... (B0DGJ8DP89)
+2025-04-07 19:26:34,076 - INFO - Amazon在庫あり: Apple iPhone 16 Plus (128 GB) ... (B0DGJ6BK8C)
+2025-04-07 19:26:34,076 - INFO - Amazon在庫あり: Apple iPhone 16 Plus (128 GB) ... (B0DGJ5ZGXT)
+2025-04-07 19:26:34,076 - INFO - Amazon在庫あり: Apple iPhone 16 (256 GB) - ホワイ... (B0DGJD1P8Q)
+2025-04-07 19:26:34,077 - INFO - Amazon在庫あり: Apple iPhone 16 (256 GB) - ピンク... (B0DGJCZDX1)
+2025-04-07 19:26:34,077 - INFO - Amazon在庫あり: Apple iPhone 16 (256 GB) - ウルト... (B0DGJBMMCV)
+2025-04-07 19:26:34,077 - INFO - Amazon以外の販売元のため対象外: ASUS AMD Radeon RX9070 搭載 ビデオカ... (B0DZBRCV9G) - 販売元: yosifukushop
+2025-04-07 19:26:34,077 - INFO - Amazon在庫あり: ZOTAC GAMING GeForce RTX 5070 ... (B0DYSFPXF6)
+2025-04-07 19:26:34,077 - INFO - Amazon在庫あり: Apple iPhone 16 (128 GB) - ピンク... (B0DGJBY82G)
+2025-04-07 19:26:34,077 - INFO - Amazon以外の販売元のため対象外: Powercolor Radeon RX9070 搭載 グラ... (B0CWCTSC1M) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-07 19:26:34,077 - INFO - Amazon在庫あり: iPhone 16e 256GB: Apple Intell... (B0DXRXWJ3Z)
+2025-04-07 19:26:34,077 - INFO - Amazon在庫あり: iPhone 16e 256GB: Apple Intell... (B0DXSHNYGW)
+2025-04-07 19:26:34,077 - INFO - Amazon在庫あり: instax 富士フイルム(FUJIFILM) インスタント... (B07D2DVX6D)
+2025-04-07 19:26:34,077 - INFO - Amazon以外の販売元のため対象外: 富士フイルム(FUJIFILM) インスタントカメラ チェキ... (B07D2H99P5) - 販売元: HRKモール
+2025-04-07 19:26:34,077 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5070 12G VENTU... (B0DZWSVB5F) - 販売元: 【当日出荷】14時決済完了分（日除く）【販売一丁目】
+2025-04-07 19:26:34,077 - INFO - Amazonが販売する商品のみに絞り込み: 2件
+2025-04-07 19:26:34,077 - INFO - 合計 2件の割引商品が見つかりました
+2025-04-07 19:26:34,079 - INFO - 検索結果を asin_results.json に保存しました
+2025-04-07 19:26:34,079 - INFO - 投稿する商品があるため、Twitterクライアントを初期化します
+2025-04-07 19:26:34,198 - INFO - Twitter API v2認証成功: @zaikochecker
+2025-04-07 19:26:34,198 - INFO - Twitterクライアントを初期化しました
+2025-04-07 19:26:34,198 - INFO - Amazon在庫商品 5件を投稿します
+2025-04-07 19:26:34,198 - INFO - Amazon在庫商品 1/5 を投稿: GAINWARD RTX 5070 PHOENIX 12GB...
+2025-04-07 19:26:34,261 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:26:39,313 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:26:44,370 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:26:44,370 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-07 19:26:44,370 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-07 19:26:44,370 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-07 19:26:47,265 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AkyiLEz-JRgszjRRQWIPXUY"}}
+2025-04-07 19:26:47,265 - INFO - リトライ待機中... 5秒
+2025-04-07 19:26:55,486 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"Aiu6W0uTasK0ClqOjhnEdmg"}}
+2025-04-07 19:26:55,486 - INFO - リトライ待機中... 10秒
+2025-04-07 19:27:07,642 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"A2iyO6QiB41XyE7sfq-drot"}}
+2025-04-07 19:27:07,642 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-07 19:27:12,647 - INFO - Amazon在庫商品 2/5 を投稿: MSI GeForce RTX 5080 16G VANGU...
+2025-04-07 19:27:12,704 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:27:17,772 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:27:22,829 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:27:22,829 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-07 19:27:22,829 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-07 19:27:22,829 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-07 19:27:25,404 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"A2SHPE2JMUWmrl0_jXGewJa"}}
+2025-04-07 19:27:25,404 - INFO - リトライ待機中... 5秒
+2025-04-07 19:27:33,326 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AZlS0bTUvWHPqgplkM_Dle6"}}
+2025-04-07 19:27:33,326 - INFO - リトライ待機中... 10秒
+2025-04-07 19:27:46,581 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AZEGcptobiULYOSM0f2NjFD"}}
+2025-04-07 19:27:46,581 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-07 19:27:51,586 - INFO - Amazon在庫商品 3/5 を投稿: PNY GeFORCE RTX 5080 16GB Over...
+2025-04-07 19:27:51,642 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:27:56,698 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:28:01,763 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:28:01,763 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-07 19:28:01,763 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-07 19:28:01,763 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-07 19:28:04,658 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"A65hhjIe6_-1huLawaOsATb"}}
+2025-04-07 19:28:04,659 - INFO - リトライ待機中... 5秒
+2025-04-07 19:28:12,396 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"ArTr1cTooDT-2xRnJvHi2g7"}}
+2025-04-07 19:28:12,396 - INFO - リトライ待機中... 10秒
+2025-04-07 19:28:25,474 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"ApxSFPv47tRM3flmK7Vys7l"}}
+2025-04-07 19:28:25,474 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-07 19:28:30,479 - INFO - Amazon在庫商品 4/5 を投稿: GIGABYTE NVIDIA RTX5080 搭載 グラフ...
+2025-04-07 19:28:30,533 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:28:35,595 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:28:40,656 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:28:40,656 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-07 19:28:40,656 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-07 19:28:40,656 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-07 19:28:43,696 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"APRcq6USW412dLnZyMq-Tir"}}
+2025-04-07 19:28:43,696 - INFO - リトライ待機中... 5秒
+2025-04-07 19:28:52,086 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AJw2NCLxzklQcQEzdcm2JCB"}}
+2025-04-07 19:28:52,086 - INFO - リトライ待機中... 10秒
+2025-04-07 19:29:05,746 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AbCVYpdOdmpctAX_ajBYuaI"}}
+2025-04-07 19:29:05,746 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-07 19:29:10,752 - INFO - Amazon在庫商品 5/5 を投稿: GIGABYTE NVIDIA RTX5080 搭載 グラフ...
+2025-04-07 19:29:10,805 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:29:15,866 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:29:20,927 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:29:20,927 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-07 19:29:20,927 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-07 19:29:20,927 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-07 19:29:23,633 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AsL_A4ScdU5IjY1zSqh0goX"}}
+2025-04-07 19:29:23,633 - INFO - リトライ待機中... 5秒
+2025-04-07 19:29:32,063 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AWJcq8xSCjJxyyzTqtQpi6Z"}}
+2025-04-07 19:29:32,063 - INFO - リトライ待機中... 10秒
+2025-04-07 19:29:44,967 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AuW5Ie61HXCLqYBDCgKJkAH"}}
+2025-04-07 19:29:44,967 - INFO - Threads投稿結果(在庫): 失敗
+2025-04-07 19:29:49,973 - INFO - 割引商品 2件を投稿します
+2025-04-07 19:29:49,973 - INFO - 割引商品 1/2 を投稿: MSI GeForce RTX 5070 12G GAMIN...
+2025-04-07 19:29:50,046 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:29:55,103 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:30:00,161 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:30:00,161 - INFO - Twitter投稿結果(割引): 失敗
+2025-04-07 19:30:00,161 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-07 19:30:00,161 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: discount）
+2025-04-07 19:30:03,569 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"ATTKInUaoQfhyYpdXFKRedJ"}}
+2025-04-07 19:30:03,570 - INFO - リトライ待機中... 5秒
+2025-04-07 19:30:12,384 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AT1hlXpf-V5creaWJWqyLhy"}}
+2025-04-07 19:30:12,384 - INFO - リトライ待機中... 10秒
+2025-04-07 19:30:25,628 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AKZMG1g5UCyctjkYQ9XCAAV"}}
+2025-04-07 19:30:25,629 - INFO - Threads投稿結果(割引): 失敗
+2025-04-07 19:30:30,634 - INFO - 割引商品 2/2 を投稿: PNY GeFORCE RTX 5080 16GB Over...
+2025-04-07 19:30:30,687 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:30:35,749 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:30:40,811 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-07 19:30:40,811 - INFO - Twitter投稿結果(割引): 失敗
+2025-04-07 19:30:40,811 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-07 19:30:40,811 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: discount）
+2025-04-07 19:30:43,578 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AaKljKPcWALmJSodugv5r_v"}}
+2025-04-07 19:30:43,578 - INFO - リトライ待機中... 5秒
+2025-04-07 19:30:51,631 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AkC8Sf6qodZZrtlKSYLqs0G"}}
+2025-04-07 19:30:51,631 - INFO - リトライ待機中... 10秒
+2025-04-07 19:31:04,185 - ERROR - Threads投稿: コンテナ作成エラー: ステータスコード 400, レスポンス: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207051,"is_transient":false,"error_user_title":"action is blocked","error_user_msg":"We restrict certain activity to protect our community. Tell us if you think we made a mistake.","fbtrace_id":"AUAVMjDwt5bb8P_EBmQ6ebS"}}
+2025-04-07 19:31:04,185 - INFO - Threads投稿結果(割引): 失敗
+2025-04-07 19:31:09,191 - INFO - ==== 処理が完了しました ====
