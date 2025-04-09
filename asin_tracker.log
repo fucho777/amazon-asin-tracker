@@ -25848,3 +25848,194 @@ Too Many Requests
 2025-04-09 07:58:56,968 - INFO - Threadsに投稿しました: PNY GeFORCE RTX 5080 16GB Over...
 2025-04-09 07:58:56,969 - INFO - Threads投稿結果(割引): 成功
 2025-04-09 07:59:01,974 - INFO - ==== 処理が完了しました ====
+2025-04-09 08:49:28,679 - INFO - ==== Amazon ASIN Tracker 実行開始 ====
+2025-04-09 08:49:28,679 - INFO - 実行時刻: 2025-04-09 08:49:28
+2025-04-09 08:49:28,679 - INFO - 環境変数を読み込みました
+2025-04-09 08:49:28,680 - INFO - Amazon PA-API認証情報チェック:
+2025-04-09 08:49:28,680 - INFO -   PA_API_KEY: 設定済み
+2025-04-09 08:49:28,680 - INFO -   PA_API_SECRET: 設定済み
+2025-04-09 08:49:28,680 - INFO -   PARTNER_TAG: 設定済み
+2025-04-09 08:49:28,680 - INFO -   PA-API利用準備: OK
+2025-04-09 08:49:28,680 - INFO - Twitter API認証情報チェック:
+2025-04-09 08:49:28,680 - INFO -   Twitter API利用準備: OK
+2025-04-09 08:49:28,680 - INFO - Threads API認証情報チェック:
+2025-04-09 08:49:28,680 - INFO -   Threads API利用準備: OK
+2025-04-09 08:49:28,680 - INFO - 必要なファイルの確認:
+2025-04-09 08:49:28,680 - INFO -   tracking_asins.json: 存在します
+2025-04-09 08:49:28,680 - INFO -   asin_results.json: 存在します
+2025-04-09 08:49:28,681 - INFO - 最小割引率: 5%
+2025-04-09 08:49:28,681 - INFO - 追跡ASIN数: 73
+2025-04-09 08:49:28,681 - INFO - 商品情報取得中... ASIN: B0BSN426TP, B0DYS9QRGT, B0DX6FT5MM, B0DT6SN14V, B0DXNFMZWJ, B0DT6RMFLK, B0DN63QJ4V, B0DTY4H1CB, B0DQGB8FTQ, B0BSLJ52ZF
+2025-04-09 08:49:34,910 - INFO - 商品情報取得中... ASIN: B0DTJFZ4YS, B0DVSLLCDH, B0DT9YQ2Q1, B0BSN9VR7K, B0DVSMG4Z2, B0DN5HJ1ZF, B0DN5SQJSC, B0DYMVWMX4, B0DGJBMY85, B0DXVJLW28
+2025-04-09 08:49:41,163 - INFO - 商品情報取得中... ASIN: B0DXTZLS9C, B0DGJ3QSGC, B0DZ62D3MP, B0DGHYJRSB, B0DGJ8MR3X, B0DGHYNDT7, B0DGHVX1PD, B0DGHYNDT9, B0DGJ8RK9X, B0DGJ6B4MS
+2025-04-09 08:49:47,365 - INFO - 商品情報取得中... ASIN: B0DGJ8XY8J, B0DGJC8DP9, B0DZ619GJ8, B0DRPQPQQC, B0DZBXKDJV, B0DRPRZMK2, B0DXS47DPV, B0DX7GSX7B, B0DGJ8DP89, B0DGJ6BK8C
+2025-04-09 08:49:53,541 - INFO - 商品情報取得中... ASIN: B0DGJ5ZGXT, B0DGJD1P8Q, B0DGJCZDX1, B0DGJBMMCV, B0DZBRCV9G, B0DYSFPXF6, B0DGJBY82G, B0CWCTSC1M, B0DXRXWJ3Z, B0DXSHNYGW
+2025-04-09 08:49:59,757 - INFO - 商品情報取得中... ASIN: B0DZBP4NMT, B0DXSF1BXJ, B0DXRH32TF, B0DTHQ428K, B0DTHR5JDB, B0DJ2DJHJ7, B01C3SCKI6, B0DYSH7P7K, B0D7Z4541Q, B0DMZX1QFL
+2025-04-09 08:50:05,967 - INFO - 商品情報取得中... ASIN: B0DZXC4BB3, B0DYSPNZXF, B0DVFML7T3, B0B1DJB527, B0CXD5Y18N, B0DVFX1Y56, B0DVG8G5VN, B0DVG2WC4V, B0D46M9DHD, B0842WLDHW
+2025-04-09 08:50:12,377 - INFO - 商品情報取得中... ASIN: B07D2DVX6D, B07D2H99P5, B0DZWSVB5F
+2025-04-09 08:50:15,580 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G SUPRI... (B0BSN426TP) - 販売元: New Oriental Technology
+2025-04-09 08:50:15,581 - INFO - Amazon在庫あり: GAINWARD RTX 5070 PHOENIX 12GB... (B0DYS9QRGT)
+2025-04-09 08:50:15,581 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5070Ti... (B0DX6FT5MM) - 販売元: 【セール中！】セブンセントラルストア【インボイス対応】
+2025-04-09 08:50:15,581 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G SUPRI... (B0DT6SN14V) - 販売元: ◎Thank U store
+2025-04-09 08:50:15,581 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5090 ビ... (B0DXNFMZWJ) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-09 08:50:15,581 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5090 32G VANGU... (B0DT6RMFLK) - 販売元: オンラインショップEVERYTHING
+2025-04-09 08:50:15,581 - INFO - Amazon以外の販売元のため対象外: ASUS NVIDIA GeForce RTX 5080 ビ... (B0DN63QJ4V) - 販売元: ドリーム ファクトリー 大阪本店
+2025-04-09 08:50:15,581 - INFO - Amazon在庫あり: ASUS NVIDIA GeForce RTX 5080 ビ... (B0DTY4H1CB)
+2025-04-09 08:50:15,581 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5080 16G GAMIN... (B0DQGB8FTQ) - 販売元: ◎Thank U store
+2025-04-09 08:50:15,581 - INFO - Amazon在庫あり: MSI GeForce RTX 5080 16G VANGU... (B0BSLJ52ZF)
+2025-04-09 08:50:15,581 - INFO - Amazon以外の販売元のため対象外: PNY GeFORCE RTX 5080 16GB Over... (B0DTJFZ4YS) - 販売元: 【セール中！】セブンセントラルストア【インボイス対応】
+2025-04-09 08:50:15,581 - INFO - Amazon以外の販売元のため対象外: GIGABYTE NVIDIA RTX5080 搭載 グラフ... (B0DVSLLCDH) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-09 08:50:15,581 - INFO - Amazon以外の販売元のため対象外: Gigabyte AORUS GeForce RTX 508... (B0DT9YQ2Q1) - 販売元: zikgootime
+2025-04-09 08:50:15,581 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5080 16G VENTU... (B0BSN9VR7K) - 販売元: BLUE 【ブルー】
+2025-04-09 08:50:15,581 - INFO - Amazon在庫あり: GIGABYTE NVIDIA RTX5080 搭載 グラフ... (B0DVSMG4Z2)
+2025-04-09 08:50:15,581 - INFO - Amazon在庫あり: Apple iPhone 16 Pro Max (512 G... (B0DN5HJ1ZF)
+2025-04-09 08:50:15,582 - INFO - Amazon在庫あり: Apple iPhone 16 Pro Max (512 G... (B0DN5SQJSC)
+2025-04-09 08:50:15,582 - INFO - Amazon以外の販売元のため対象外: ZOTAC GAMING GeForce RTX 5080 ... (B0DYMVWMX4) - 販売元: さくら流通
+2025-04-09 08:50:15,582 - INFO - Amazon在庫あり: Apple iPhone 16 Pro Max (512 G... (B0DGJBMY85)
+2025-04-09 08:50:15,582 - INFO - Amazon以外の販売元のため対象外: GIGABYTE NVIDIA RTX5070Ti 搭載 グ... (B0DXVJLW28) - 販売元: GIGABYTE 公認ストア【インボイス対応/ 適格請求書発行事業者】
+2025-04-09 08:50:15,582 - INFO - Amazon以外の販売元のため対象外: ZOTAC GAMING GeForce RTX 5070 ... (B0DXTZLS9C) - 販売元: 富岡商事
+2025-04-09 08:50:15,582 - INFO - Amazon在庫あり: Apple iPhone 16 Plus (512 GB) ... (B0DGJ3QSGC)
+2025-04-09 08:50:15,582 - INFO - Amazon在庫あり: ASUS RTX5070 搭載 ビデオカード PCIe 5.... (B0DZ62D3MP)
+2025-04-09 08:50:15,582 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 (512 GB) - ホワイ... (B0DGHYJRSB) - 販売元: 不明
+2025-04-09 08:50:15,582 - INFO - Amazon在庫あり: Apple iPhone 16 (512 GB) - ピンク... (B0DGJ8MR3X)
+2025-04-09 08:50:15,582 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 (512 GB) - ブラッ... (B0DGHYNDT7) - 販売元: 不明
+2025-04-09 08:50:15,582 - INFO - Amazon在庫あり: Apple iPhone 16 (512 GB) - ティー... (B0DGHVX1PD)
+2025-04-09 08:50:15,582 - INFO - Amazon在庫あり: Apple iPhone 16 (512 GB) - ウルト... (B0DGHYNDT9)
+2025-04-09 08:50:15,582 - INFO - Amazon在庫あり: Apple iPhone 16 Pro (128 GB) -... (B0DGJ8RK9X)
+2025-04-09 08:50:15,582 - INFO - Amazon在庫あり: Apple iPhone 16 Pro (128 GB) -... (B0DGJ6B4MS)
+2025-04-09 08:50:15,582 - INFO - Amazon以外の販売元のため対象外: Apple iPhone 16 Pro (128 GB) -... (B0DGJ8XY8J) - 販売元: 不明
+2025-04-09 08:50:15,582 - INFO - Amazon在庫あり: Apple iPhone 16 Pro (128 GB) -... (B0DGJC8DP9)
+2025-04-09 08:50:15,582 - INFO - Amazon在庫あり: ASUS RTX5070 搭載 ビデオカード PCIe 5.... (B0DZ619GJ8)
+2025-04-09 08:50:15,582 - INFO - Amazon以外の販売元のため対象外: SAPPHIRE NITRO+ Radeon RX 9070... (B0DRPQPQQC) - 販売元: trippodoshop
+2025-04-09 08:50:15,582 - INFO - Amazon以外の販売元のため対象外: ASUS AMD Radeon RX9070XT 搭載 ビデ... (B0DZBXKDJV) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-09 08:50:15,582 - INFO - Amazon以外の販売元のため対象外: SAPPHIRE PULSE Radeon RX 9070 ... (B0DRPRZMK2) - 販売元: オンラインショップ　motojun
+2025-04-09 08:50:15,582 - INFO - Amazon在庫あり: iPhone 16e 512GB: Apple Intell... (B0DXS47DPV)
+2025-04-09 08:50:15,583 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5070 12G GAMIN... (B0DX7GSX7B) - 販売元: 【セール中！】セブンセントラルストア【インボイス対応】
+2025-04-09 08:50:15,583 - INFO - Amazon在庫あり: Apple iPhone 16 Plus (128 GB) ... (B0DGJ8DP89)
+2025-04-09 08:50:15,583 - INFO - Amazon在庫あり: Apple iPhone 16 Plus (128 GB) ... (B0DGJ6BK8C)
+2025-04-09 08:50:15,583 - INFO - Amazon在庫あり: Apple iPhone 16 Plus (128 GB) ... (B0DGJ5ZGXT)
+2025-04-09 08:50:15,583 - INFO - Amazon在庫あり: Apple iPhone 16 (256 GB) - ホワイ... (B0DGJD1P8Q)
+2025-04-09 08:50:15,583 - INFO - Amazon在庫あり: Apple iPhone 16 (256 GB) - ピンク... (B0DGJCZDX1)
+2025-04-09 08:50:15,583 - INFO - Amazon在庫あり: Apple iPhone 16 (256 GB) - ウルト... (B0DGJBMMCV)
+2025-04-09 08:50:15,583 - INFO - Amazon以外の販売元のため対象外: ASUS AMD Radeon RX9070 搭載 ビデオカ... (B0DZBRCV9G) - 販売元: yosifukushop
+2025-04-09 08:50:15,583 - INFO - Amazon在庫あり: ZOTAC GAMING GeForce RTX 5070 ... (B0DYSFPXF6)
+2025-04-09 08:50:15,583 - INFO - Amazon在庫あり: Apple iPhone 16 (128 GB) - ピンク... (B0DGJBY82G)
+2025-04-09 08:50:15,583 - INFO - Amazon以外の販売元のため対象外: Powercolor Radeon RX9070 搭載 グラ... (B0CWCTSC1M) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-09 08:50:15,583 - INFO - Amazon在庫あり: iPhone 16e 256GB: Apple Intell... (B0DXRXWJ3Z)
+2025-04-09 08:50:15,583 - INFO - Amazon在庫あり: iPhone 16e 256GB: Apple Intell... (B0DXSHNYGW)
+2025-04-09 08:50:15,583 - INFO - Amazon以外の販売元のため対象外: SAPPHIRE PULSE Radeon RX 9070 ... (B0DZBP4NMT) - 販売元: B&T(国内発送,すり替え対策済,English OK)
+2025-04-09 08:50:15,583 - INFO - Amazon在庫あり: iPhone 16e 128GB: Apple Intell... (B0DXSF1BXJ)
+2025-04-09 08:50:15,583 - INFO - Amazon在庫あり: iPhone 16e 128GB: Apple Intell... (B0DXRH32TF)
+2025-04-09 08:50:15,583 - INFO - Amazon以外の販売元のため対象外: PlayStation 5 "モンスターハンターワイルズ" ... (B0DTHQ428K) - 販売元: ﻿Amazonアウトレット
+2025-04-09 08:50:15,583 - INFO - Amazon以外の販売元のため対象外: PlayStation 5 デジタル・エディション "モンス... (B0DTHR5JDB) - 販売元: ナンモ店
+2025-04-09 08:50:15,583 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS METAL BUILD 機... (B0DJ2DJHJ7) - 販売元: WEB PENGUIN
+2025-04-09 08:50:15,583 - INFO - Amazon在庫あり: シグマ(Sigma) レンズ 30mm F1.4 DC DN... (B01C3SCKI6)
+2025-04-09 08:50:15,583 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS Tamashii Art ... (B0DYSH7P7K) - 販売元: TAKAsale 適格請求書発行事業者
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: 富士フイルム(FUJIFILM) インスタントカメラ チェキ... (B0D7Z4541Q) - 販売元: hit-market  あなたの欲しいにヒットする
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS METAL ROBOT魂 ... (B0DMZX1QFL) - 販売元: ★☆迅速発送☆★プラチナムストア本店
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: 【任天堂純正品】ニンテンドーサウンドクロック Alarmo ... (B0DZXC4BB3) - 販売元: トアールショップ
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: TAMASHII NATIONS S.H.フィギュアーツ（真... (B0DYSPNZXF) - 販売元: 〚親切、丁寧〛ララストア（適格請求書発行事業者）
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVFML7T3) - 販売元: yショップ上小田
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: Google グーグル GA01919-JP [Chrome... (B0B1DJB527) - 販売元: オンラインショップ紫苑
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: ポケモンカードゲーム スカーレット＆バイオレット 拡張パック... (B0CXD5Y18N) - 販売元: D’s ストア
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVFX1Y56) - 販売元: ハイネショップ本店
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVG8G5VN) - 販売元: GOOD★LUCK 東京本店
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: [バンダイ(BANDAI)] Tamagotchi Conn... (B0DVG2WC4V) - 販売元: Genki市場ドットコム
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: バンダイ (BANDAI) ONE PIECEカードゲーム ... (B0D46M9DHD) - 販売元: おとくとく屋
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: 竹鶴ピュアモルト [ ウイスキー 日本 700ml ]... (B0842WLDHW) - 販売元: お酒市場JOYLAB
+2025-04-09 08:50:15,584 - INFO - Amazon在庫あり: instax 富士フイルム(FUJIFILM) インスタント... (B07D2DVX6D)
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: 富士フイルム(FUJIFILM) インスタントカメラ チェキ... (B07D2H99P5) - 販売元: hit-market  あなたの欲しいにヒットする
+2025-04-09 08:50:15,584 - INFO - Amazon以外の販売元のため対象外: MSI GeForce RTX 5070 12G VENTU... (B0DZWSVB5F) - 販売元: 【当日出荷】14時決済完了分（日除く）【販売一丁目】
+2025-04-09 08:50:15,584 - INFO - Amazonが販売する商品のみに絞り込み: 1件
+2025-04-09 08:50:15,584 - INFO - 合計 1件の割引商品が見つかりました
+2025-04-09 08:50:15,586 - INFO - 検索結果を asin_results.json に保存しました
+2025-04-09 08:50:15,586 - INFO - 投稿する商品があるため、Twitterクライアントを初期化します
+2025-04-09 08:50:15,709 - INFO - Twitter API v2認証成功: @zaikochecker
+2025-04-09 08:50:15,709 - INFO - Twitterクライアントを初期化しました
+2025-04-09 08:50:15,709 - INFO - Amazon在庫商品 5件を投稿します
+2025-04-09 08:50:15,709 - INFO - Amazon在庫商品 1/5 を投稿: GAINWARD RTX 5070 PHOENIX 12GB...
+2025-04-09 08:50:15,766 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:50:20,820 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:50:25,881 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:50:25,882 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-09 08:50:25,882 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-09 08:50:25,882 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-09 08:50:29,052 - INFO - Threads投稿: コンテナID取得成功: 18474231265064413
+2025-04-09 08:50:29,052 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-09 08:50:32,004 - INFO - Threadsに投稿しました: GAINWARD RTX 5070 PHOENIX 12GB...
+2025-04-09 08:50:32,005 - INFO - Threads投稿結果(在庫): 成功
+2025-04-09 08:50:37,010 - INFO - Amazon在庫商品 2/5 を投稿: ASUS NVIDIA GeForce RTX 5080 ビ...
+2025-04-09 08:50:37,060 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:50:42,121 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:50:47,177 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:50:47,177 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-09 08:50:47,177 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-09 08:50:47,177 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-09 08:50:49,977 - INFO - Threads投稿: コンテナID取得成功: 18337702129081328
+2025-04-09 08:50:49,977 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-09 08:50:52,717 - INFO - Threadsに投稿しました: ASUS NVIDIA GeForce RTX 5080 ビ...
+2025-04-09 08:50:52,717 - INFO - Threads投稿結果(在庫): 成功
+2025-04-09 08:50:57,722 - INFO - Amazon在庫商品 3/5 を投稿: MSI GeForce RTX 5080 16G VANGU...
+2025-04-09 08:50:57,773 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:51:02,829 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:51:07,885 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:51:07,885 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-09 08:51:07,885 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-09 08:51:07,885 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-09 08:51:10,773 - INFO - Threads投稿: コンテナID取得成功: 18078367465743256
+2025-04-09 08:51:10,773 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-09 08:51:13,649 - INFO - Threadsに投稿しました: MSI GeForce RTX 5080 16G VANGU...
+2025-04-09 08:51:13,649 - INFO - Threads投稿結果(在庫): 成功
+2025-04-09 08:51:18,654 - INFO - Amazon在庫商品 4/5 を投稿: GIGABYTE NVIDIA RTX5080 搭載 グラフ...
+2025-04-09 08:51:18,705 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:51:23,760 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:51:28,811 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:51:28,811 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-09 08:51:28,811 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-09 08:51:28,812 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-09 08:51:31,485 - INFO - Threads投稿: コンテナID取得成功: 18053484422217360
+2025-04-09 08:51:31,486 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-09 08:51:33,826 - INFO - Threadsに投稿しました: GIGABYTE NVIDIA RTX5080 搭載 グラフ...
+2025-04-09 08:51:33,826 - INFO - Threads投稿結果(在庫): 成功
+2025-04-09 08:51:38,831 - INFO - Amazon在庫商品 5/5 を投稿: Apple iPhone 16 Pro Max (512 G...
+2025-04-09 08:51:38,887 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:51:43,942 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:51:49,001 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:51:49,001 - INFO - Twitter投稿結果(在庫): 失敗
+2025-04-09 08:51:49,001 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-09 08:51:49,002 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: instock）
+2025-04-09 08:51:52,031 - INFO - Threads投稿: コンテナID取得成功: 18103944607504772
+2025-04-09 08:51:52,031 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-09 08:51:58,989 - INFO - Threadsに投稿しました: Apple iPhone 16 Pro Max (512 G...
+2025-04-09 08:51:58,990 - INFO - Threads投稿結果(在庫): 成功
+2025-04-09 08:52:03,995 - INFO - 割引商品 1件を投稿します
+2025-04-09 08:52:03,995 - INFO - 割引商品 1/1 を投稿: シグマ(Sigma) レンズ 30mm F1.4 DC DN...
+2025-04-09 08:52:04,045 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:52:09,102 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:52:14,166 - ERROR - TweepyエラーでX投稿に失敗: 429 Too Many Requests
+Too Many Requests
+2025-04-09 08:52:14,166 - INFO - Twitter投稿結果(割引): 失敗
+2025-04-09 08:52:14,166 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-04-09 08:52:14,166 - INFO - Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: discount）
+2025-04-09 08:52:16,679 - INFO - Threads投稿: コンテナID取得成功: 17907008001128961
+2025-04-09 08:52:16,679 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-04-09 08:52:19,481 - INFO - Threadsに投稿しました: シグマ(Sigma) レンズ 30mm F1.4 DC DN...
+2025-04-09 08:52:19,482 - INFO - Threads投稿結果(割引): 成功
+2025-04-09 08:52:24,484 - INFO - ==== 処理が完了しました ====
