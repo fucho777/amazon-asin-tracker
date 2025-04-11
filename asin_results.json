@@ -10,7 +10,7 @@
     "is_in_stock": false,
     "seller": "オンラインショップEVERYTHING",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:10"
+    "timestamp": "2025-04-11 11:49:47"
   },
   {
     "asin": "B0DYS9QRGT",
@@ -23,7 +23,7 @@
     "is_in_stock": true,
     "seller": "【セール中！】セブンセントラルストア【インボイス対応】",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:10"
+    "timestamp": "2025-04-11 11:49:47"
   },
   {
     "asin": "B0DX6FT5MM",
@@ -36,7 +36,7 @@
     "is_in_stock": true,
     "seller": "【セール中！】セブンセントラルストア【インボイス対応】",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:10"
+    "timestamp": "2025-04-11 11:49:47"
   },
   {
     "asin": "B0DT6SN14V",
@@ -49,7 +49,7 @@
     "is_in_stock": true,
     "seller": "◎Thank U store",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:10"
+    "timestamp": "2025-04-11 11:49:47"
   },
   {
     "asin": "B0DXNFMZWJ",
@@ -62,7 +62,7 @@
     "is_in_stock": true,
     "seller": "B&T(国内発送,すり替え対策済,English OK)",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:10"
+    "timestamp": "2025-04-11 11:49:47"
   },
   {
     "asin": "B0DT6RMFLK",
@@ -75,7 +75,7 @@
     "is_in_stock": true,
     "seller": "SMJ Shop",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:10"
+    "timestamp": "2025-04-11 11:49:47"
   },
   {
     "asin": "B0DN63QJ4V",
@@ -88,7 +88,7 @@
     "is_in_stock": true,
     "seller": "パソコン工房",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:10"
+    "timestamp": "2025-04-11 11:49:47"
   },
   {
     "asin": "B0DTY4H1CB",
@@ -101,7 +101,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:10"
+    "timestamp": "2025-04-11 11:49:47"
   },
   {
     "asin": "B0DQGB8FTQ",
@@ -114,7 +114,7 @@
     "is_in_stock": true,
     "seller": "◎Thank U store",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:10"
+    "timestamp": "2025-04-11 11:49:47"
   },
   {
     "asin": "B0BSLJ52ZF",
@@ -127,7 +127,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:10"
+    "timestamp": "2025-04-11 11:49:47"
   },
   {
     "asin": "B0DTJFZ4YS",
@@ -140,7 +140,7 @@
     "is_in_stock": true,
     "seller": "【セール中！】セブンセントラルストア【インボイス対応】",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:17"
+    "timestamp": "2025-04-11 11:49:53"
   },
   {
     "asin": "B0DVSLLCDH",
@@ -153,7 +153,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:17"
+    "timestamp": "2025-04-11 11:49:53"
   },
   {
     "asin": "B0DT9YQ2Q1",
@@ -166,20 +166,22 @@
     "is_in_stock": false,
     "seller": "zikgootime",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:17"
+    "timestamp": "2025-04-11 11:49:53"
   },
   {
     "asin": "B0BSN9VR7K",
     "title": "MSI GeForce RTX 5080 16G VENTUS 3X OC WHITE グラフィックスカード VD8978",
-    "current_price": 295000.0,
-    "original_price": null,
+    "current_price": 185234.0,
+    "original_price": 253333.0,
     "image_url": "https://m.media-amazon.com/images/I/417WwhVmOCL._SL500_.jpg",
     "detail_page_url": "https://www.amazon.co.jp/dp/B0BSN9VR7K?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "availability": "在庫あり。",
     "is_in_stock": true,
-    "seller": "◎Thank U store",
+    "seller": "﻿Amazonアウトレット",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:17"
+    "timestamp": "2025-04-11 11:49:53",
+    "discount_amount": 68099.0,
+    "discount_percent": 26.88121958055208
   },
   {
     "asin": "B0DVSMG4Z2",
@@ -192,7 +194,7 @@
     "is_in_stock": true,
     "seller": "ADTEC DIRECT",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:17"
+    "timestamp": "2025-04-11 11:49:53"
   },
   {
     "asin": "B0DN5HJ1ZF",
@@ -205,7 +207,7 @@
     "is_in_stock": false,
     "seller": "不明",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:17"
+    "timestamp": "2025-04-11 11:49:53"
   },
   {
     "asin": "B0DN5SQJSC",
@@ -218,7 +220,7 @@
     "is_in_stock": false,
     "seller": "不明",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:17"
+    "timestamp": "2025-04-11 11:49:53"
   },
   {
     "asin": "B0DYMVWMX4",
@@ -231,7 +233,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:17"
+    "timestamp": "2025-04-11 11:49:53"
   },
   {
     "asin": "B0DGJBMY85",
@@ -244,7 +246,7 @@
     "is_in_stock": false,
     "seller": "不明",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:17"
+    "timestamp": "2025-04-11 11:49:53"
   },
   {
     "asin": "B0DXVJLW28",
@@ -257,7 +259,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:17"
+    "timestamp": "2025-04-11 11:49:53"
   },
   {
     "asin": "B0DXTZLS9C",
@@ -270,7 +272,7 @@
     "is_in_stock": true,
     "seller": "すーショップ",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:23"
+    "timestamp": "2025-04-11 11:49:59"
   },
   {
     "asin": "B0DGJ3QSGC",
@@ -283,7 +285,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:23"
+    "timestamp": "2025-04-11 11:49:59"
   },
   {
     "asin": "B0DZ62D3MP",
@@ -296,7 +298,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:23",
+    "timestamp": "2025-04-11 11:49:59",
     "discount_amount": 10101.0,
     "discount_percent": 5.889280820919453
   },
@@ -311,7 +313,7 @@
     "is_in_stock": false,
     "seller": "不明",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:23"
+    "timestamp": "2025-04-11 11:49:59"
   },
   {
     "asin": "B0DGJ8MR3X",
@@ -324,7 +326,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:23"
+    "timestamp": "2025-04-11 11:49:59"
   },
   {
     "asin": "B0DGHYNDT7",
@@ -337,7 +339,7 @@
     "is_in_stock": false,
     "seller": "不明",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:23"
+    "timestamp": "2025-04-11 11:49:59"
   },
   {
     "asin": "B0DGHVX1PD",
@@ -350,7 +352,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:23"
+    "timestamp": "2025-04-11 11:49:59"
   },
   {
     "asin": "B0DGHYNDT9",
@@ -363,7 +365,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:23"
+    "timestamp": "2025-04-11 11:49:59"
   },
   {
     "asin": "B0DGJ8RK9X",
@@ -376,7 +378,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:23"
+    "timestamp": "2025-04-11 11:49:59"
   },
   {
     "asin": "B0DGJ6B4MS",
@@ -389,7 +391,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:23"
+    "timestamp": "2025-04-11 11:49:59"
   },
   {
     "asin": "B0DGJ8XY8J",
@@ -402,7 +404,7 @@
     "is_in_stock": false,
     "seller": "不明",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:30"
+    "timestamp": "2025-04-11 11:50:06"
   },
   {
     "asin": "B0DGJC8DP9",
@@ -415,7 +417,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:30"
+    "timestamp": "2025-04-11 11:50:06"
   },
   {
     "asin": "B0DZ619GJ8",
@@ -428,7 +430,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:30",
+    "timestamp": "2025-04-11 11:50:06",
     "discount_amount": 8081.0,
     "discount_percent": 5.340585409052758
   },
@@ -443,7 +445,7 @@
     "is_in_stock": true,
     "seller": "trippodoshop",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:30"
+    "timestamp": "2025-04-11 11:50:06"
   },
   {
     "asin": "B0DZBXKDJV",
@@ -456,7 +458,7 @@
     "is_in_stock": true,
     "seller": "B&T(国内発送,すり替え対策済,English OK)",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:30"
+    "timestamp": "2025-04-11 11:50:06"
   },
   {
     "asin": "B0DRPRZMK2",
@@ -469,7 +471,7 @@
     "is_in_stock": true,
     "seller": "B&T(国内発送,すり替え対策済,English OK)",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:30"
+    "timestamp": "2025-04-11 11:50:06"
   },
   {
     "asin": "B0DXS47DPV",
@@ -482,7 +484,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:30"
+    "timestamp": "2025-04-11 11:50:06"
   },
   {
     "asin": "B0DX7GSX7B",
@@ -495,7 +497,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:30",
+    "timestamp": "2025-04-11 11:50:06",
     "discount_amount": 70831.0,
     "discount_percent": 34.52644406531806
   },
@@ -510,7 +512,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:30"
+    "timestamp": "2025-04-11 11:50:06"
   },
   {
     "asin": "B0DGJ6BK8C",
@@ -523,7 +525,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:30"
+    "timestamp": "2025-04-11 11:50:06"
   },
   {
     "asin": "B0DGJ5ZGXT",
@@ -536,7 +538,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:36"
+    "timestamp": "2025-04-11 11:50:12"
   },
   {
     "asin": "B0DGJD1P8Q",
@@ -549,7 +551,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:36"
+    "timestamp": "2025-04-11 11:50:12"
   },
   {
     "asin": "B0DGJCZDX1",
@@ -562,7 +564,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:36"
+    "timestamp": "2025-04-11 11:50:12"
   },
   {
     "asin": "B0DGJBMMCV",
@@ -575,20 +577,22 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:36"
+    "timestamp": "2025-04-11 11:50:12"
   },
   {
     "asin": "B0DZBRCV9G",
     "title": "ASUS AMD Radeon RX9070 搭載 ビデオカード PCIe 5.0 16GB GDDR6 TUF-RX9070-O16G-GAMING 国内正規代理店品",
-    "current_price": 153660.0,
-    "original_price": null,
+    "current_price": 95697.0,
+    "original_price": 131111.0,
     "image_url": "https://m.media-amazon.com/images/I/31d6xUXu-WL._SL500_.jpg",
     "detail_page_url": "https://www.amazon.co.jp/dp/B0DZBRCV9G?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "availability": "在庫あり。",
     "is_in_stock": true,
-    "seller": "yosifukushop",
+    "seller": "﻿Amazonアウトレット",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:36"
+    "timestamp": "2025-04-11 11:50:12",
+    "discount_amount": 35414.0,
+    "discount_percent": 27.01070085652615
   },
   {
     "asin": "B0DYSFPXF6",
@@ -601,7 +605,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:36"
+    "timestamp": "2025-04-11 11:50:12"
   },
   {
     "asin": "B0DGJBY82G",
@@ -614,7 +618,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:36"
+    "timestamp": "2025-04-11 11:50:12"
   },
   {
     "asin": "B0CWCTSC1M",
@@ -627,7 +631,7 @@
     "is_in_stock": true,
     "seller": "B&T(国内発送,すり替え対策済,English OK)",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:36"
+    "timestamp": "2025-04-11 11:50:12"
   },
   {
     "asin": "B0DXRXWJ3Z",
@@ -640,7 +644,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:36"
+    "timestamp": "2025-04-11 11:50:12"
   },
   {
     "asin": "B0DXSHNYGW",
@@ -653,7 +657,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:36"
+    "timestamp": "2025-04-11 11:50:12"
   },
   {
     "asin": "B0DZBP4NMT",
@@ -666,7 +670,7 @@
     "is_in_stock": true,
     "seller": "B&T(国内発送,すり替え対策済,English OK)",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:43"
+    "timestamp": "2025-04-11 11:50:19"
   },
   {
     "asin": "B0DXSF1BXJ",
@@ -679,7 +683,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:43"
+    "timestamp": "2025-04-11 11:50:19"
   },
   {
     "asin": "B0DXRH32TF",
@@ -692,7 +696,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:43"
+    "timestamp": "2025-04-11 11:50:19"
   },
   {
     "asin": "B0DTHQ428K",
@@ -705,7 +709,7 @@
     "is_in_stock": true,
     "seller": "PENTACT JAPAN(土・日・祝休まず出荷 / インボイス登録店)",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:43"
+    "timestamp": "2025-04-11 11:50:19"
   },
   {
     "asin": "B0DTHR5JDB",
@@ -718,7 +722,7 @@
     "is_in_stock": true,
     "seller": "◆14時まで注文は即日発送◆efショップ",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:43"
+    "timestamp": "2025-04-11 11:50:19"
   },
   {
     "asin": "B0DJ2DJHJ7",
@@ -731,7 +735,7 @@
     "is_in_stock": false,
     "seller": "WEB PENGUIN",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:43"
+    "timestamp": "2025-04-11 11:50:19"
   },
   {
     "asin": "B01C3SCKI6",
@@ -744,7 +748,7 @@
     "is_in_stock": false,
     "seller": "Reg shop",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:43",
+    "timestamp": "2025-04-11 11:50:19",
     "discount_amount": 6840.0,
     "discount_percent": 13.194444444444445
   },
@@ -759,7 +763,7 @@
     "is_in_stock": false,
     "seller": "SAKKショップ",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:43"
+    "timestamp": "2025-04-11 11:50:19"
   },
   {
     "asin": "B0D7Z4541Q",
@@ -772,7 +776,7 @@
     "is_in_stock": true,
     "seller": "hit-market  あなたの欲しいにヒットする",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:43"
+    "timestamp": "2025-04-11 11:50:19"
   },
   {
     "asin": "B0DMZX1QFL",
@@ -785,7 +789,7 @@
     "is_in_stock": false,
     "seller": "★☆迅速発送☆★プラチナムストア本店",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:43"
+    "timestamp": "2025-04-11 11:50:19"
   },
   {
     "asin": "B0DZXC4BB3",
@@ -798,7 +802,7 @@
     "is_in_stock": false,
     "seller": "A.O SHOP【適格請求書発行事業者】",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:50"
+    "timestamp": "2025-04-11 11:50:25"
   },
   {
     "asin": "B0DYSPNZXF",
@@ -807,11 +811,11 @@
     "original_price": null,
     "image_url": "https://m.media-amazon.com/images/I/31MieN34hdL._SL500_.jpg",
     "detail_page_url": "https://www.amazon.co.jp/dp/B0DYSPNZXF?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "availability": "この商品の発売予定日は2025年9月2日です。ただいま予約受付中です。",
+    "availability": "この商品の発売予定日は2025年8月31日です。ただいま予約受付中です。",
     "is_in_stock": false,
-    "seller": "〚親切、丁寧〛ララストア（適格請求書発行事業者）",
+    "seller": "amaストア",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:50"
+    "timestamp": "2025-04-11 11:50:25"
   },
   {
     "asin": "B0DVFML7T3",
@@ -824,7 +828,7 @@
     "is_in_stock": false,
     "seller": "ヤフ商店",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:50"
+    "timestamp": "2025-04-11 11:50:25"
   },
   {
     "asin": "B0B1DJB527",
@@ -837,7 +841,7 @@
     "is_in_stock": false,
     "seller": "ゆにでのこづち",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:50"
+    "timestamp": "2025-04-11 11:50:25"
   },
   {
     "asin": "B0CXD5Y18N",
@@ -850,7 +854,7 @@
     "is_in_stock": true,
     "seller": "Market Place 大阪本店【当日便可能】",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:50"
+    "timestamp": "2025-04-11 11:50:25"
   },
   {
     "asin": "B0DVFX1Y56",
@@ -863,7 +867,7 @@
     "is_in_stock": true,
     "seller": "YURI'S STORE",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:50"
+    "timestamp": "2025-04-11 11:50:25"
   },
   {
     "asin": "B0DVG8G5VN",
@@ -876,7 +880,7 @@
     "is_in_stock": true,
     "seller": "Shopくるみ",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:50"
+    "timestamp": "2025-04-11 11:50:25"
   },
   {
     "asin": "B0DVG2WC4V",
@@ -889,7 +893,7 @@
     "is_in_stock": true,
     "seller": "CNNショップ(すり替え・模造品対策店)",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:50"
+    "timestamp": "2025-04-11 11:50:25"
   },
   {
     "asin": "B0D46M9DHD",
@@ -902,7 +906,7 @@
     "is_in_stock": true,
     "seller": "COMTRAX",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:50"
+    "timestamp": "2025-04-11 11:50:25"
   },
   {
     "asin": "B0842WLDHW",
@@ -915,7 +919,7 @@
     "is_in_stock": true,
     "seller": "洋酒専門店 サケコレ",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:50",
+    "timestamp": "2025-04-11 11:50:25",
     "discount_amount": 600.0,
     "discount_percent": 6.315789473684211
   },
@@ -930,7 +934,7 @@
     "is_in_stock": true,
     "seller": "Amazon.co.jp",
     "is_amazon": true,
-    "timestamp": "2025-04-11 11:43:57"
+    "timestamp": "2025-04-11 11:50:32"
   },
   {
     "asin": "B07D2H99P5",
@@ -943,7 +947,7 @@
     "is_in_stock": true,
     "seller": "hit-market  あなたの欲しいにヒットする",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:57"
+    "timestamp": "2025-04-11 11:50:32"
   },
   {
     "asin": "B0DZWSVB5F",
@@ -956,6 +960,6 @@
     "is_in_stock": true,
     "seller": "◎Thank U store",
     "is_amazon": false,
-    "timestamp": "2025-04-11 11:43:57"
+    "timestamp": "2025-04-11 11:50:32"
   }
 ]
