@@ -580,199 +580,199 @@ def post_to_twitter(client, product, notification_type="discount"):
         logger.error(f"X投稿エラー: {e}")
         return False
 
-def get_threads_access_token():
-    """Threads APIのアクセストークンを取得"""
-    try:
-        # 長期アクセストークンが既に存在する場合はそれを使用
-        if THREADS_LONG_LIVED_TOKEN:
-            logger.info("Threads認証: 長期アクセストークンを使用します")
-            return THREADS_LONG_LIVED_TOKEN
-        
-        # クライアント認証情報が不足している場合はエラー
-        if not THREADS_APP_ID or not THREADS_APP_SECRET:
-            raise ValueError("Threads API認証情報が不足しています")
-        
-        # アクセストークンリクエストURL
-        token_url = "https://graph.facebook.com/v18.0/oauth/access_token"
-        
-        # リクエストパラメータ
-        params = {
-            "client_id": THREADS_APP_ID,
-            "client_secret": THREADS_APP_SECRET,
-            "grant_type": "client_credentials"
-        }
-        
-        # POSTリクエストを送信
-        logger.info("Threads認証: アクセストークンをリクエスト中...")
-        response = requests.get(token_url, params=params)
-        
-        # レスポンスを確認
-        if response.status_code == 200:
-            response_data = response.json()
-            access_token = response_data.get("access_token")
-            logger.info("Threads認証: クライアントアクセストークンを取得しました")
-            return access_token
-        else:
-            error_msg = f"アクセストークン取得エラー: ステータスコード {response.status_code}, レスポンス: {response.text}"
-            logger.error(f"Threads認証: {error_msg}")
-            raise ValueError(error_msg)
-            
-    except Exception as e:
-        logger.error(f"Threads認証エラー: {e}")
-        return None
+# def get_threads_access_token():
+#     """Threads APIのアクセストークンを取得"""
+#     try:
+#         # 長期アクセストークンが既に存在する場合はそれを使用
+#         if THREADS_LONG_LIVED_TOKEN:
+#             logger.info("Threads認証: 長期アクセストークンを使用します")
+#             return THREADS_LONG_LIVED_TOKEN
+#         
+#         # クライアント認証情報が不足している場合はエラー
+#         if not THREADS_APP_ID or not THREADS_APP_SECRET:
+#             raise ValueError("Threads API認証情報が不足しています")
+#         
+#         # アクセストークンリクエストURL
+#         token_url = "https://graph.facebook.com/v18.0/oauth/access_token"
+#         
+#         # リクエストパラメータ
+#         params = {
+#             "client_id": THREADS_APP_ID,
+#             "client_secret": THREADS_APP_SECRET,
+#             "grant_type": "client_credentials"
+#         }
+#         
+#         # POSTリクエストを送信
+#         logger.info("Threads認証: アクセストークンをリクエスト中...")
+#         response = requests.get(token_url, params=params)
+#         
+#         # レスポンスを確認
+#         if response.status_code == 200:
+#             response_data = response.json()
+#             access_token = response_data.get("access_token")
+#             logger.info("Threads認証: クライアントアクセストークンを取得しました")
+#             return access_token
+#         else:
+#             error_msg = f"アクセストークン取得エラー: ステータスコード {response.status_code}, レスポンス: {response.text}"
+#             logger.error(f"Threads認証: {error_msg}")
+#             raise ValueError(error_msg)
+#             
+#     except Exception as e:
+#         logger.error(f"Threads認証エラー: {e}")
+#         return None
 
-def post_to_threads(product, notification_type="discount"):
-    """Threadsに投稿（Meta Graph API経由）"""
-    if not threads_ready:
-        logger.warning("Threads認証情報が不足しています。Threads投稿はスキップされます。")
-        return False
-        
-    try:
-        # アクセストークン取得
-        access_token = get_threads_access_token()
-        if not access_token:
-            logger.error("Threads投稿: アクセストークンが取得できません")
-            return False
-        
-        logger.info(f"Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: {notification_type}）")
-        
-        # 投稿文を作成（通知タイプに応じて内容を変更）
-        if notification_type == "discount":
-            # 割引情報の投稿
-            discount_percent = product["discount_percent"]
-            current_price = product["current_price"]
-            original_price = product["original_price"]
-            discount_amount = product["discount_amount"]
-            
-            text = f"🔥【{discount_percent:.1f}%オフ】Amazon割引情報🔥\n\n"
-            text += f"{product['title']}\n\n"
-            text += f"✅ 現在価格: {current_price:,.0f}円\n"
-            text += f"❌ 元の価格: {original_price:,.0f}円\n"
-            text += f"💰 割引額: {discount_amount:,.0f}円\n\n"
-            text += f"🛒 商品ページ: {product['detail_page_url']}\n\n"
-            text += f"#Amazonセール #お買い得 #タイムセール #PR"
-        
-        elif notification_type == "instock":
-            # 入荷情報の投稿
-            current_price = product.get("current_price", 0)
-            availability = product.get("availability", "在庫あり")
-            seller = product.get("seller", "")
-            
-            text = f"📦【入荷速報】Amazonで在庫復活！📦 #PR\n\n"
-            text += f"{product['title']}\n\n"
-            if current_price:
-                text += f"💲 価格: {current_price:,.0f}円\n"
-            text += f"📋 在庫状況: {availability}\n"
-            if seller:
-                text += f"🏪 販売: {seller}\n"
-            text += f"\n🛒 商品ページ: {product['detail_page_url']}\n\n"
-            text += f"#Amazon入荷 #在庫あり #お買い逃しなく #PR"
-        
-        else:
-            # その他の変更（汎用フォーマット）
-            text = f"📢【商品情報更新】Amazon商品情報📢 #PR\n\n"
-            text += f"{product['title']}\n\n"
-            if product.get("current_price"):
-                text += f"💲 価格: {product['current_price']:,.0f}円\n"
-            text += f"📋 在庫状況: {product.get('availability', '不明')}\n\n"
-            text += f"🛒 商品ページ: {product['detail_page_url']}\n\n"
-            text += f"#Amazon #商品情報 #PR"
-        
-        if DRY_RUN:
-            logger.info(f"【シミュレーション】Threads投稿内容: {text[:100]}...")
-            return True
-            
-        # 最大3回までリトライ
-        for attempt in range(MAX_RETRIES):
-            try:
-                # ステップ1: コンテナID作成
-                upload_url = f"https://graph.threads.net/v1.0/{THREADS_INSTAGRAM_ACCOUNT_ID}/threads"
-                upload_params = {
-                    "access_token": access_token,
-                    "media_type": "TEXT",
-                    "text": text
-                }
-                
-                # リクエスト送信
-                upload_response = requests.post(upload_url, data=upload_params, timeout=15)
-                
-                if upload_response.status_code != 200:
-                    error_msg = f"コンテナ作成エラー: ステータスコード {upload_response.status_code}, レスポンス: {upload_response.text}"
-                    logger.error(f"Threads投稿: {error_msg}")
-                    
-                    if attempt < MAX_RETRIES - 1:
-                        wait_time = 5 * (attempt + 1)  # 5秒、10秒、15秒と待機時間を増やす
-                        logger.info(f"リトライ待機中... {wait_time}秒")
-                        time.sleep(wait_time)
-                        continue
-                    return False
-                
-                # コンテナIDの取得
-                try:
-                    creation_data = upload_response.json()
-                    container_id = creation_data.get("id")
-                    if not container_id:
-                        logger.error("Threads投稿: コンテナIDが取得できませんでした")
-                        
-                        if attempt < MAX_RETRIES - 1:
-                            time.sleep(5)
-                            continue
-                        return False
-                except Exception as e:
-                    logger.error(f"Threads投稿: コンテナIDの解析に失敗 - {e}")
-                    
-                    if attempt < MAX_RETRIES - 1:
-                        time.sleep(5)
-                        continue
-                    return False
-                
-                logger.info(f"Threads投稿: コンテナID取得成功: {container_id}")
-                
-                # ステップ2: 投稿の公開
-                logger.info("Threads投稿: ステップ2 - 投稿公開中...")
-                publish_url = f"https://graph.threads.net/v1.0/{THREADS_INSTAGRAM_ACCOUNT_ID}/threads_publish"
-                publish_params = {
-                    "access_token": access_token,
-                    "creation_id": container_id
-                }
-                
-                # リクエスト送信
-                publish_response = requests.post(publish_url, data=publish_params, timeout=15)
-                
-                if publish_response.status_code != 200:
-                    error_msg = f"公開エラー: ステータスコード {publish_response.status_code}, レスポンス: {publish_response.text}"
-                    logger.error(f"Threads投稿: {error_msg}")
-                    
-                    if attempt < MAX_RETRIES - 1:
-                        time.sleep(5)
-                        continue
-                    return False
-                
-                # 公開成功
-                logger.info(f"Threadsに投稿しました: {product['title'][:30]}...")
-                return True
-                
-            except requests.exceptions.RequestException as e:
-                logger.error(f"Threads投稿ネットワークエラー: {e}")
-                
-                if attempt < MAX_RETRIES - 1:
-                    time.sleep(5)
-                    continue
-                return False
-                
-            except Exception as e:
-                logger.error(f"Threads投稿エラー: {e}")
-                
-                if attempt < MAX_RETRIES - 1:
-                    time.sleep(5)
-                    continue
-                return False
-        
-        return False
-        
-    except Exception as e:
-        logger.error(f"Threads投稿エラー: {e}")
-        return False
+# def post_to_threads(product, notification_type="discount"):
+#     """Threadsに投稿（Meta Graph API経由）"""
+#     if not threads_ready:
+#         logger.warning("Threads認証情報が不足しています。Threads投稿はスキップされます。")
+#         return False
+#         
+#     try:
+#         # アクセストークン取得
+#         access_token = get_threads_access_token()
+#         if not access_token:
+#             logger.error("Threads投稿: アクセストークンが取得できません")
+#             return False
+#         
+#         logger.info(f"Threads投稿: ステップ1 - コンテナID作成中...（通知タイプ: {notification_type}）")
+#         
+#         # 投稿文を作成（通知タイプに応じて内容を変更）
+#         if notification_type == "discount":
+#             # 割引情報の投稿
+#             discount_percent = product["discount_percent"]
+#             current_price = product["current_price"]
+#             original_price = product["original_price"]
+#             discount_amount = product["discount_amount"]
+#             
+#             text = f"🔥【{discount_percent:.1f}%オフ】Amazon割引情報🔥\n\n"
+#             text += f"{product['title']}\n\n"
+#             text += f"✅ 現在価格: {current_price:,.0f}円\n"
+#             text += f"❌ 元の価格: {original_price:,.0f}円\n"
+#             text += f"💰 割引額: {discount_amount:,.0f}円\n\n"
+#             text += f"🛒 商品ページ: {product['detail_page_url']}\n\n"
+#             text += f"#Amazonセール #お買い得 #タイムセール #PR"
+#         
+#         elif notification_type == "instock":
+#             # 入荷情報の投稿
+#             current_price = product.get("current_price", 0)
+#             availability = product.get("availability", "在庫あり")
+#             seller = product.get("seller", "")
+#             
+#             text = f"📦【入荷速報】Amazonで在庫復活！📦 #PR\n\n"
+#             text += f"{product['title']}\n\n"
+#             if current_price:
+#                 text += f"💲 価格: {current_price:,.0f}円\n"
+#             text += f"📋 在庫状況: {availability}\n"
+#             if seller:
+#                 text += f"🏪 販売: {seller}\n"
+#             text += f"\n🛒 商品ページ: {product['detail_page_url']}\n\n"
+#             text += f"#Amazon入荷 #在庫あり #お買い逃しなく #PR"
+#         
+#         else:
+#             # その他の変更（汎用フォーマット）
+#             text = f"📢【商品情報更新】Amazon商品情報📢 #PR\n\n"
+#             text += f"{product['title']}\n\n"
+#             if product.get("current_price"):
+#                 text += f"💲 価格: {product['current_price']:,.0f}円\n"
+#             text += f"📋 在庫状況: {product.get('availability', '不明')}\n\n"
+#             text += f"🛒 商品ページ: {product['detail_page_url']}\n\n"
+#             text += f"#Amazon #商品情報 #PR"
+#         
+#         if DRY_RUN:
+#             logger.info(f"【シミュレーション】Threads投稿内容: {text[:100]}...")
+#             return True
+#             
+#         # 最大3回までリトライ
+#         for attempt in range(MAX_RETRIES):
+#             try:
+#                 # ステップ1: コンテナID作成
+#                 upload_url = f"https://graph.threads.net/v1.0/{THREADS_INSTAGRAM_ACCOUNT_ID}/threads"
+#                 upload_params = {
+#                     "access_token": access_token,
+#                     "media_type": "TEXT",
+#                     "text": text
+#                 }
+#                 
+#                 # リクエスト送信
+#                 upload_response = requests.post(upload_url, data=upload_params, timeout=15)
+#                 
+#                 if upload_response.status_code != 200:
+#                     error_msg = f"コンテナ作成エラー: ステータスコード {upload_response.status_code}, レスポンス: {upload_response.text}"
+#                     logger.error(f"Threads投稿: {error_msg}")
+#                     
+#                     if attempt < MAX_RETRIES - 1:
+#                         wait_time = 5 * (attempt + 1)  # 5秒、10秒、15秒と待機時間を増やす
+#                         logger.info(f"リトライ待機中... {wait_time}秒")
+#                         time.sleep(wait_time)
+#                         continue
+#                     return False
+#                 
+#                 # コンテナIDの取得
+#                 try:
+#                     creation_data = upload_response.json()
+#                     container_id = creation_data.get("id")
+#                     if not container_id:
+#                         logger.error("Threads投稿: コンテナIDが取得できませんでした")
+#                         
+#                         if attempt < MAX_RETRIES - 1:
+#                             time.sleep(5)
+#                             continue
+#                         return False
+#                 except Exception as e:
+#                     logger.error(f"Threads投稿: コンテナIDの解析に失敗 - {e}")
+#                     
+#                     if attempt < MAX_RETRIES - 1:
+#                         time.sleep(5)
+#                         continue
+#                     return False
+#                 
+#                 logger.info(f"Threads投稿: コンテナID取得成功: {container_id}")
+#                 
+#                 # ステップ2: 投稿の公開
+#                 logger.info("Threads投稿: ステップ2 - 投稿公開中...")
+#                 publish_url = f"https://graph.threads.net/v1.0/{THREADS_INSTAGRAM_ACCOUNT_ID}/threads_publish"
+#                 publish_params = {
+#                     "access_token": access_token,
+#                     "creation_id": container_id
+#                 }
+#                 
+#                 # リクエスト送信
+#                 publish_response = requests.post(publish_url, data=publish_params, timeout=15)
+#                 
+#                 if publish_response.status_code != 200:
+#                     error_msg = f"公開エラー: ステータスコード {publish_response.status_code}, レスポンス: {publish_response.text}"
+#                     logger.error(f"Threads投稿: {error_msg}")
+#                     
+#                     if attempt < MAX_RETRIES - 1:
+#                         time.sleep(5)
+#                         continue
+#                     return False
+#                 
+#                 # 公開成功
+#                 logger.info(f"Threadsに投稿しました: {product['title'][:30]}...")
+#                 return True
+#                 
+#             except requests.exceptions.RequestException as e:
+#                 logger.error(f"Threads投稿ネットワークエラー: {e}")
+#                 
+#                 if attempt < MAX_RETRIES - 1:
+#                     time.sleep(5)
+#                     continue
+#                 return False
+#                 
+#             except Exception as e:
+#                 logger.error(f"Threads投稿エラー: {e}")
+#                 
+#                 if attempt < MAX_RETRIES - 1:
+#                     time.sleep(5)
+#                     continue
+#                 return False
+#         
+#         return False
+#         
+#     except Exception as e:
+#         logger.error(f"Threads投稿エラー: {e}")
+#         return False
 
 def main():
     """メイン処理"""
